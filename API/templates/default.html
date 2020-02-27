@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <mate charest="utf-8" />
+    <title>Converted document</title>
+</head>
+
+<body>
+    <h1>{{data.funder}}</h1>
+
+    {{#each data.sections}}
+    <h2>
+        <span class="title">{{@key}}</span>
+    </h2>
+    {{#each this}}
+
+    <div class="block">
+        <span>{{this.Q}}</span>
+        <br />
+        <span class="ans">{{this.A}}</span>
+    </div>
+    <hr>
+    {{/each}}
+    {{/each}}
+
+
+</body>
+<style>
+    .ans {
+        color: #666;
+    }
+
+    .title {
+        border-radius: 6px;
+        color: white;
+        background-color: black;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .block {
+        padding-left: 20px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+</style>
+
+</html>

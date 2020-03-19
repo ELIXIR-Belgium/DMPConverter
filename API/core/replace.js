@@ -37,26 +37,30 @@ const replace = async (content, funder) => {
         let newSection = unCamelCase(section)
         outputHtml["sections"][newSection] = []
         for (const question in root[section]) {
-            if (root[section][question] == prevQ) {
-                lastItem(outputHtml["sections"][newSection]).A += '\n' + answers[question].toString()
-                // console.log(lastItem(outputHtml["sections"][newSection]).A)
-                // return
+            let Q, guide;
+            if (Array.isArray(root[section][question])) {
+                Q = root[section][question][0]
+                guide = root[section][question][1]
+            }
+            else
+                Q = root[section][question]
 
+            if (Q == prevQ) {
+                lastItem(outputHtml["sections"][newSection]).A += '\n' + answers[question].toString()
             }
             else {
                 outputHtml["sections"][newSection].push({
-                    "Q": root[section][question],
-                    "A": answers[question].toString()
+                    "Q": Q,
+                    "A": guide ? guide + '\n' + answers[question].toString() : answers[question].toString()
                 })
             }
-            prevQ = root[section][question]
+            prevQ = Q
         }
     }
     outputHtml["funder"] = funder.toUpperCase()
     return outputHtml
 }
 const lastItem = array => {
-   // console.log(array[2]['A'])
     return array[array.length - 1]
 }
 const extractSealing = content => {

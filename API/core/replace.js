@@ -46,12 +46,12 @@ const replace = async (content, funder) => {
                 Q = root[section][question]
 
             if (Q == prevQ) {
-                lastItem(outputHtml["sections"][newSection]).A += '\n' + answers[question].toString()
+                lastItem(outputHtml["sections"][newSection]).A = answers[question].join('\n')
             }
             else {
                 outputHtml["sections"][newSection].push({
                     "Q": Q,
-                    "A": guide ? guide + '\n' + answers[question].toString() : answers[question].toString()
+                    "A": guide ? guide + '\n' + answers[question].join('\n') : answers[question].toString()
                 })
             }
             prevQ = Q

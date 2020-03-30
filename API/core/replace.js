@@ -36,27 +36,29 @@ const replace = async (content, funder) => {
     for (const section in root) {
         let newSection = unCamelCase(section)
         outputHtml["sections"][newSection] = []
-        for (const question in root[section]) {
+        for (const funderQ in root[section]) {
             let Q, guide;
-            if (Array.isArray(root[section][question])) {
-                Q = root[section][question][0]
-                guide = root[section][question][1]
+            if (Array.isArray(root[section][funderQ])) {
+                Q = root[section][funderQ][0]
+                guide = root[section][funderQ][1]
             }
             else
-                Q = root[section][question]
-
+                Q = root[section][funderQ]
+                
             if (Q == prevQ) {
-                lastItem(outputHtml["sections"][newSection]).A = answers[question].join('\n')
+                lastItem(outputHtml["sections"][newSection]).A += answers[funderQ].join('\n')
             }
             else {
+               
                 outputHtml["sections"][newSection].push({
                     "Q": Q,
-                    "A": guide ? guide + '\n' + answers[question].join('\n') : answers[question].toString()
+                    "A": guide ? guide + '\n' + answers[funderQ].join('\n') : answers[funderQ].join('\n')
                 })
             }
             prevQ = Q
         }
     }
+    console.log(outputHtml["sections"][' Allocation Of Resources And Data Security'])
     outputHtml["funder"] = funder.toUpperCase()
     return outputHtml
 }

@@ -48,8 +48,8 @@ const data = {
             dataDescription: {
                 newExistingData: "Will you generate/collect new data and/or make use of existing data?",
                 datasetsOrigin: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets origin:"],
-                datasetsTypeFormat: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.2", "Datasets type and format(s):"],
-                datasetsVolume: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.3", "Datasets volume:"],
+                datasetsTypeFormat: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets type and format(s):"],
+                datasetsVolume: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets volume:"],
             },
             dataSharing: {
                 datasetsSharing: ["Which data will be made available after the end of the project?", "Access type per datasets:"],
@@ -58,7 +58,7 @@ const data = {
                 sharingRepos: "Where/how will the data be made available for reuse? ",
                 datasetsEmbargo: "When will the data be made available?",
                 costSharing: "What are the expected costs for data sharing? How will these costs be covered?",
-                costSharingCover: "What are the expected costs for data sharing? How will these costs be covered? 2"
+                costSharingCover: "What are the expected costs for data sharing? How will these costs be covered?"
             },
             documentation: {
                 datasetsMetadata: "Will a metadata standard be used? Describe in detail which standard will be used.  If not, state in detail which metadata will be created to make the data easy/easier to find and reuse.",
@@ -76,7 +76,7 @@ const data = {
                 datasetsListArchiving: "Which data will be retained for the expected 5 year period after the end of the project? In case only a selection of the data can/will be preserved, clearly state the reasons for this (legal or contractual restrictions, physical preservation issues, …)",
                 ArchivingWhere: "Where will these data be archived (=stored for the long term)?",
                 CostsArchiving: "What are the expected costs for data preservation during these 5 years? How will the costs be covered?",
-                CostsArchivingCover: "What are the expected costs for data preservation during these 5 years? How will the costs be covered? 2",
+                CostsArchivingCover: "What are the expected costs for data preservation during these 5 years? How will the costs be covered?",
             },
             responsibilities: {
                 RespDataDoc: "Who will be responsible for the data documentation and metadata?",
@@ -122,17 +122,17 @@ const data = {
             },
             AllocationOfResourcesAndDataSecurity: {
                 costSharing: ["Estimated costs for making the project data open access", "Costs for data sharing:"],
-                costSharingCover: ["Estimated costs for making the project data open access 2", "Funding for sharing costs:"],
+                costSharingCover: ["Estimated costs for making the project data open access", "Funding for sharing costs:"],
                 storageDuringWhere: ["Procedure for data backup and recovery", "(Meta)Data Storage:"],
-                storageDuringFrequency: ["Procedure for data backup and recovery 2", "(Meta)Data backup:"],
-                costDuring: ["Procedure for data backup and recovery 3", "Costs for storage and backup:"],
-                costDuringCover: ["Procedure for data backup and recovery 4", "Funding for storage and backup:"],
-                securityDuring: ["Procedure for data backup and recovery 5", "Data security:"],
+                storageDuringFrequency: ["Procedure for data backup and recovery", "(Meta)Data backup:"],
+                costDuring: ["Procedure for data backup and recovery", "Costs for storage and backup:"],
+                costDuringCover: ["Procedure for data backup and recovery", "Funding for storage and backup:"],
+                securityDuring: ["Procedure for data backup and recovery", "Data security:"],
                 datasetsListArchiving: ["secure storage in repositories for long term preservation and curation", "Data archiving:"],
-                ArchivingWhere: ["secure storage in repositories for long term preservation and curation 2", "Archives:"],
-                CostsArchiving: ["secure storage in repositories for long term preservation and curation 3", "Costs for archiving:"],
-                CostsArchivingCover: ["secure storage in repositories for long term preservation and curation 4", "Funding for archiving:"],
-                SecurityArchiving: ["secure storage in repositories for long term preservation and curation 5", "Archive security:"]
+                ArchivingWhere: ["secure storage in repositories for long term preservation and curation", "Archives:"],
+                CostsArchiving: ["secure storage in repositories for long term preservation and curation", "Costs for archiving:"],
+                CostsArchivingCover: ["secure storage in repositories for long term preservation and curation", "Funding for archiving:"],
+                SecurityArchiving: ["secure storage in repositories for long term preservation and curation", "Archive security:"]
             },
 
         }
@@ -172,21 +172,21 @@ const data = {
                 costSharing: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Costs for data sharing:"],
                 costSharingCover: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Funding for sharing costs:"],
                 datasetsListArchiving: ["Describe costs and potential value of long term preservation", "Data archiving:"],
-                ArchivingWhere: ["Describe costs and potential value of long term preservation 2", "Archives:"],
-                CostsArchiving: ["Describe costs and potential value of long term preservation 3", "Costs for archiving:"],
-                CostsArchivingCover: ["Describe costs and potential value of long term preservation 4", "Funding for archiving:"],
+                ArchivingWhere: ["Describe costs and potential value of long term preservation", "Archives:"],
+                CostsArchiving: ["Describe costs and potential value of long term preservation", "Costs for archiving:"],
+                CostsArchivingCover: ["Describe costs and potential value of long term preservation", "Funding for archiving:"],
                 RespDataDoc: ["Clearly identify responsibilities for data management in your project", "Responsibility for data documentation:"],
-                RespDataStorage: ["Clearly identify responsibilities for data management in your project 2", "Responsibility for data management:"],
-                RespDataArchiving: ["Clearly identify responsibilities for data management in your project 3", "Responsibility for preservation and sharing:"],
-                RespDMP: ["Clearly identify responsibilities for data management in your project 4", "Responsibility for DMP:"],
+                RespDataStorage: ["Clearly identify responsibilities for data management in your project", "Responsibility for data management:"],
+                RespDataArchiving: ["Clearly identify responsibilities for data management in your project", "Responsibility for preservation and sharing:"],
+                RespDMP: ["Clearly identify responsibilities for data management in your project", "Responsibility for DMP:"],
             },
             dataSecurity: {
                 storageDuringWhere: ["Address data recovery as well as secure storage and transfer of sensitive data", "(Meta)Data Storage:"],
-                storageDuringFrequency: ["Address data recovery as well as secure storage and transfer of sensitive data 2", "(Meta)Data backup:"],
-                costDuring: ["Address data recovery as well as secure storage and transfer of sensitive data 3", "Costs for storage and backup:"],
-                costDuringCover: ["Address data recovery as well as secure storage and transfer of sensitive data 4", "Funding for storage and backup:"],
-                securityDuring: ["Address data recovery as well as secure storage and transfer of sensitive data 5", "Data security:"],
-                SecurityArchiving: ["Address data recovery as well as secure storage and transfer of sensitive data 6", "Archive security:"],
+                storageDuringFrequency: ["Address data recovery as well as secure storage and transfer of sensitive data", "(Meta)Data backup:"],
+                costDuring: ["Address data recovery as well as secure storage and transfer of sensitive data", "Costs for storage and backup:"],
+                costDuringCover: ["Address data recovery as well as secure storage and transfer of sensitive data", "Funding for storage and backup:"],
+                securityDuring: ["Address data recovery as well as secure storage and transfer of sensitive data", "Data security:"],
+                SecurityArchiving: ["Address data recovery as well as secure storage and transfer of sensitive data", "Archive security:"],
             },
             ethicalAspects: {
                 PersonalData: ["Ethical aspects", "Use of personal /sensitive data:"],

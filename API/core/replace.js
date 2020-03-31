@@ -40,19 +40,19 @@ const replace = async (content, funder) => {
             let Q, guide;
             if (Array.isArray(root[section][funderQ])) {
                 Q = root[section][funderQ][0]
-                guide = root[section][funderQ][1]
+                guide = "● " + root[section][funderQ][1] + '૾'
             }
             else
                 Q = root[section][funderQ]
                 
             if (Q == prevQ) {
-                lastItem(outputHtml["sections"][newSection]).A += guide ? '\n' + guide + '\n' + answers[funderQ].join('\n') : '\n' + answers[funderQ].join('\n')
+                lastItem(outputHtml["sections"][newSection]).A += guide ? guide + answers[funderQ].join('\n') : '\n' + answers[funderQ].join('\n')
             }
             else {
                
                 outputHtml["sections"][newSection].push({
                     "Q": Q,
-                    "A": guide ? guide + '\n' + answers[funderQ].join('\n') : answers[funderQ].join('\n')
+                    "A": guide ? guide + answers[funderQ].join('\n') : answers[funderQ].join('\n')
                 })
             }
             prevQ = Q

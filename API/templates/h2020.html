@@ -1,1 +1,88 @@
-<!DOCTYPE html><html><head> <mate charest="utf-8"/> <title>Converted document</title></head><body> <h1>{{data.funder}}</h1>{{#each data.sections}}<table> <tbody>{{#if @index}}{{else}}<tr> <td class="header">DMP component</td><td class="header">Issue to be addressed</td></tr>{{/if}}<tr> <td class="normal n-30 pad">{{@key}}</td><td class="normal n-70"> <ul>{{#each this}}<li>{{breaklines this.A}}</li>{{/each}}</ul> </td></tr></tbody> </table>{{/each}}</body><style>.section{text-align: center; height: 30px; font-weight: bold;}.header{height: 20px; font-weight: bold; padding: 5px; text-align: center;}.pad{padding-left: 5px;}.normal, .header, .section{border: 1px black solid;}.n-30{width: 30%;}.n-70{width: 70%;}table{table-layout: auto; border-collapse: collapse; border-spacing: 0; width: 100%; page-break-inside: avoid;}table tr{width: 100%;}table, tr, th, td{margin: 0; font-size: 12px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(52, 131, 196)}</style></html>
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <mate charest="utf-8" />
+        <title>Converted document</title>
+    </head>
+
+    <body>
+        <h1>{{data.funder}}</h1>{{#each data.sections}}<table>
+            <tbody>{{#if @index}}{{else}}<tr>
+                    <td class="header">DMP component</td>
+                    <td class="header">Issue to be addressed</td>
+                </tr>{{/if}}<tr>
+                    <td class="normal n-30 pad">{{@key}}</td>
+                    <td class="normal n-70">
+                        <ul>{{#each this}}<li>{{breaklines this.A}}</li>{{/each}}</ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>{{/each}}
+    </body>
+    <style>
+        p {
+            color: black
+        }
+
+        ul {
+            list-style-type: none;
+            list-style: none;
+        }
+
+        .section {
+            text-align: center;
+            height: 30px;
+            font-weight: bold;
+        }
+
+        .header {
+            height: 20px;
+            font-weight: bold;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .pad {
+            padding-left: 5px;
+        }
+
+        .normal,
+        .header,
+        .section {
+            border: 1px black solid;
+        }
+
+        .n-30 {
+            width: 30%;
+        }
+
+        .n-70 {
+            width: 70%;
+        }
+
+        table {
+            table-layout: auto;
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            page-break-inside: avoid;
+        }
+
+        table tr {
+            width: 100%;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            margin: 0;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(52, 131, 196)
+        }
+
+    </style>
+
+</html>

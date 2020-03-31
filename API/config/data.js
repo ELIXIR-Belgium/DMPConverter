@@ -52,9 +52,9 @@ const data = {
                 datasetsVolume: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets volume:"],
             },
             dataSharing: {
-                datasetsSharing: ["Which data will be made available after the end of the project?", "Access type per datasets:"],
+                datasetsSharing: "Which data will be made available after the end of the project?",
                 sharingRational: "Are there any factors restricting or preventing the sharing of (some of) the data (e.g. as defined in an agreement with a 3rd party, legal restrictions)?",
-                accessProcedure: ["Who will be able to access the data and under what conditions?", "Access procedures per dataset:"],
+                accessProcedure: "Who will be able to access the data and under what conditions?",
                 sharingRepos: "Where/how will the data be made available for reuse? ",
                 datasetsEmbargo: "When will the data be made available?",
                 costSharing: "What are the expected costs for data sharing? How will these costs be covered?",
@@ -62,21 +62,21 @@ const data = {
             },
             documentation: {
                 datasetsMetadata: "Will a metadata standard be used? Describe in detail which standard will be used.  If not, state in detail which metadata will be created to make the data easy/easier to find and reuse.",
-                datasetsDocs: ["What documentation will be provided to enable understanding and reuse of data collected/generated in this project?", "Shared documentation about datasets:"],
+                datasetsDocs: "What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
             },
             storage: {
                 storageDuringWhere: "Where will the data be stored?",
                 storageDuringFrequency: "How will the data be backed up?",
                 storageDuringAvailability: "Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
-                costDuring: "What are the expected costs for data storage and backup during the project?",
-                costDuringCover: "How will these costs be covered?",
+                costDuring: ["What are the expected costs for data storage and backup during the project? How will these costs be covered?","Costs for storage and backup:"],
+                costDuringCover: ["What are the expected costs for data storage and backup during the project? How will these costs be covered?","Funding for storage and backup:"],
                 securityDuring: "Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorized persons), especially for sensitive data.",
             },
             dataPreservation: {
                 datasetsListArchiving: "Which data will be retained for the expected 5 year period after the end of the project? In case only a selection of the data can/will be preserved, clearly state the reasons for this (legal or contractual restrictions, physical preservation issues, …)",
                 ArchivingWhere: "Where will these data be archived (=stored for the long term)?",
-                CostsArchiving: "What are the expected costs for data preservation during these 5 years? How will the costs be covered?",
-                CostsArchivingCover: "What are the expected costs for data preservation during these 5 years? How will the costs be covered?",
+                CostsArchiving: ["What are the expected costs for data preservation during these 5 years? How will the costs be covered?","Costs for archiving:"],
+                CostsArchivingCover: ["What are the expected costs for data preservation during these 5 years? How will the costs be covered?","Funding for archiving:"],
             },
             responsibilities: {
                 RespDataDoc: "Who will be responsible for the data documentation and metadata?",

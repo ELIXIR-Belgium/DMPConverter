@@ -46,7 +46,7 @@ const replace = async (content, funder) => {
                 Q = root[section][funderQ]
                 
             if (Q == prevQ) {
-                lastItem(outputHtml["sections"][newSection]).A += answers[funderQ].join('\n')
+                lastItem(outputHtml["sections"][newSection]).A += guide ? '\n' + guide + '\n' + answers[funderQ].join('\n') : '\n' + answers[funderQ].join('\n')
             }
             else {
                
@@ -58,7 +58,6 @@ const replace = async (content, funder) => {
             prevQ = Q
         }
     }
-    console.log(outputHtml["sections"][' Allocation Of Resources And Data Security'])
     outputHtml["funder"] = funder.toUpperCase()
     return outputHtml
 }

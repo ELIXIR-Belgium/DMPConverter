@@ -24,7 +24,7 @@ const Core = {
     createPDF: async (content, funder) => {
         try {
             // const data = await Core.read(file)
-            const options = { format: "A4", orientation: "landscape", border: "10mm" };
+            const options = { format: "A4", orientation: "portrait", border: "10mm" };
             const name = 'Converted_' + Core.randomName();
             const doc = { html: eval(`${funder}Template`), data: { data: content }, path: `${tempPath}${name}.pdf` }
             await PDF.create(doc, options)

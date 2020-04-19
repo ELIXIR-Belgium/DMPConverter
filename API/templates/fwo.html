@@ -1,1 +1,84 @@
-<!DOCTYPE html><html><head> <mate charest="utf-8"/> <title>Converted document</title></head><body> <h1>{{data.funder}}</h1>{{#each data.sections}}<table> <tbody> <tr> <td colspan="2" class="section">{{@key}}</td></tr><tr> <td class="header">Question</td><td class="header">Answer</td></tr>{{#each this}}<tr> <td class="normal">{{this.Q}}</td><td class="normal">{{breaklines this.A}}</td></tr>{{/each}}</tbody> </table> <br/>{{/each}}</body><style>.section{background-color: rgb(43, 188, 255); text-align: center; height: 30px; font-weight: bold;}.header{background-color: rgb(218, 218, 218); height: 20px; font-weight: bold; padding: 5px;}.normal, .header, .section{border: 1px black solid;}.normal{padding: 5px; width: 50%;}table{border-collapse: collapse; border-spacing: 0; width: 100%;}table, tr, th, td{margin: 0; font-size: 12px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}table{page-break-inside: avoid; display: block}</style></html>
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <mate charest="utf-8" />
+        <title>Converted document</title>
+    </head>
+
+    <body>
+        <h1>{{data.funder}}</h1>{{#each data.sections}}<table>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="section">{{@key}}</td>
+                </tr>
+                <tr>
+                    <td class="header n-30">Question</td>
+                    <td class="header n-70">Answer</td>
+                </tr>{{#each this}}<tr>
+                    <td class="normal n-30">{{this.Q}}</td>
+                    <td class="normal n-70">{{breaklines this.A}}</td>
+                </tr>{{/each}}
+            </tbody>
+        </table> <br />{{/each}}
+    </body>
+    <style>
+        a {
+            color: grey !important
+        }
+
+        .n-30 {
+            width: 40%;
+        }
+
+        .n-70 {
+            width: 60%;
+        }
+
+        .section {
+            background-color: rgb(43, 188, 255);
+            text-align: center;
+            height: 30px;
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: rgb(218, 218, 218);
+            height: 20px;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        .normal,
+        .header,
+        .section {
+            border: 1px black solid;
+        }
+
+        .normal {
+            padding: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            margin: 0;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            page-break-inside: avoid;
+            display: block
+        }
+
+    </style>
+
+</html>

@@ -15,7 +15,7 @@ class ConvertType extends Component {
         return (
             <div className="funderType">
 
-                <FormLabel component="legend">Convert from Elixir format to:</FormLabel>
+                <FormLabel component="legend">Convert from ELIXIR format to:</FormLabel>
                 <div>
                     {funders.map(x => {
                         return (<FormControlLabel name="funder" value={x} control={<Radio color="primary" />}

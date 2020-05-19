@@ -15,7 +15,7 @@ const data = {
         sharingRational: "Are there any factors restricting or preventing the sharing of (some of) the data? Per dataset with restricted or closed access, provide a rationale for doing so.",
         datasetsMetadata: "Will a metadata schema be used? Per dataset, state the metadata standards or the customized metadata that will be used.",
         datasetsIdentifier: "Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
-        datasetsOntology: "Will you use a controlled vocabulary or ontology to describe your data? Per dataset: state the existing ontology or the mapping of your vocabulary to the most used ontologies.",
+        datasetsOntology: "WWill you use a controlled vocabulary or standard ontology to describe your data? Per dataset, state the standard ontologies you will use or the mapping of your vocabulary to a standard ontologies.",
         datasetsDocs: "What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
         costsFair: "What are the estimated costs for making data FAIR? ",
         costsFairCover: "How will these costs (for making data FAIR) be covered?",

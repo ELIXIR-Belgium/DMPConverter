@@ -30,7 +30,7 @@ const data = {
         datasetsListArchiving: "List which datasets will be preserved or not, for at least 10 years after the end of the project and explain why (legal, contractual restrictions etc..)",
         ArchivingWhere: "Where will datasets be stored for long term (archived) after the end of the project?",
         CostsArchiving: "Estimate the costs for long term preservation (or archiving).",
-        SecurityArchiving: "Data security: is datasets safely archived in certified repositories?",
+        SecurityArchiving: "Data security: are the datasets safely stored in repositories for long term preservation and curation?",
         RespDataQuality: "Describe data quality assurance processes and who will be responsible for it.",
         RespDataDoc: "Who will be responsible for the data documentation and metadata?",
         RespDataStorage: "Who will be responsible for data storage and backup during the project?",
@@ -122,7 +122,7 @@ const data = {
             },
             AllocationOfResourcesAndDataSecurity: {
                 costSharing: ["Estimated costs for making the project data open access", "Costs for data sharing:"],
-                costSharingCover: ["Estimated costs for making the project data open access", "Funding for sharing costs:"],
+                costSharingCover: ["Estimated costs for making the project data open access", "Funding for data sharing costs:"],
                 storageDuringWhere: ["Procedure for data backup and recovery", "(Meta)Data Storage:"],
                 storageDuringFrequency: ["Procedure for data backup and recovery", "(Meta)Data backup:"],
                 costDuring: ["Procedure for data backup and recovery", "Costs for storage and backup:"],
@@ -168,9 +168,9 @@ const data = {
             },
             allocationOfResource: {
                 costsFair: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Costs for making FAIR data:"],
-                costsFairCover: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Funding for FAIR costs:"],
+                costsFairCover: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Funding for FAIR data costs:"],
                 costSharing: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Costs for data sharing:"],
-                costSharingCover: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Funding for sharing costs:"],
+                costSharingCover: ["Estimate the costs for making your data FAIR. Describe how you intend to cover these costs", "Funding for data sharing costs:"],
                 datasetsListArchiving: ["Describe costs and potential value of long term preservation", "Data archiving:"],
                 ArchivingWhere: ["Describe costs and potential value of long term preservation", "Archives:"],
                 CostsArchiving: ["Describe costs and potential value of long term preservation", "Costs for archiving:"],
@@ -195,7 +195,7 @@ const data = {
                 LegalIssue: ""
             },
             other: {
-                other: "indicates whether other national/funder/sectorial/departmental procedures for data management are used"
+                other: "Indicates whether other national/funder/sectorial/departmental procedures for data management are used"
             }
         }
     }

@@ -8,7 +8,12 @@ const replace = async (content, funder) => {
   if (parsed) {
     let temp = [];
     parsed.sections.forEach((x) => {
-      x.questions.forEach((y) => temp.push({ question: y.text, answer: y.answer }));
+      x.questions.forEach((y) =>
+        temp.push({
+          question: y.text,
+          answer: y.answer && y.answer.text ? y.answer.text.replace(/<\/?[^>]+(>|$)/g, "") : null,
+        })
+      );
     });
     temp.forEach((x) => {
       answers[Object.keys(data.Questions).find((a) => data.Questions[a] == x.question)] = x.answer

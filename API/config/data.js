@@ -21,7 +21,7 @@ const data = {
         
         datasetsSharing: "[FWO, ERC, H2020] Which datasets will be shared and made available (for the society) after the end of the project? Distinguish open access datasets from restricted or closed access datasets.",
         sharingRational: "[FWO, ERC, H2020] Are there any factors restricting or preventing the sharing of (some of) the data? Per dataset with restricted or closed access, provide a rationale for doing so.",
-        sharingRepos: "[FWO, ERC, H2020]  Per dataset, list the repositories in which data, metadata, code, software and related documentation will be shared. If research materials and protocols will be shared in centralised repositories, specify it below.",
+        sharingRepos: "[FWO, ERC, H2020] Per dataset, list the repositories in which data, metadata, code, software and related documentation will be shared. If research materials and protocols will be shared in centralised repositories, specify it below.",
         accessProcedure: "[FWO, ERC, H2020] Per dataset with restricted access, explain how access will be provided (under what conditions or procedure).",
         datasetsEmbargo: "[FWO, ERC, H2020] Per dataset, state when it will be made available. Is embargo foreseen?",
         datasetsLicense: "[ERC, H2020] Per dataset, state how it will be licensed to permit the widest re-use possible. If the re-use of some data is restricted, explain why and specify the length of time for which the data will remain re-usable.",
@@ -60,7 +60,7 @@ const data = {
         EthicalIssue: "[FWO, H2020] Are there any ethical issues concerning the creation and/or use of the data (e.g. experiments on humans or animals, dual use)? If so, add the reference to the formal approval by the relevant ethical review committee(s).",
         IntellectualProperty: "[FWO] Will Intellectual property restrictions be claimed for your data? If so, for what data and which restrictions will be asserted?",
         LegalIssue: "[FWO] Do existing 3rd party agreements restrict dissemination or exploitation of the data you (re)use? If so, to what data do they relate and what restrictions are in place?",
-        other: "[H2020] indicates whether other national/funder/sectorial/departmental procedures for data management are used"
+        other: "[H2020] Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
         
     },
     fwo: {
@@ -238,7 +238,7 @@ const data = {
                 EthicalIssue: ["Ethical aspects", "Ethical issues:"],
                 IntellectualProperty: "Ethical aspects",
                 LegalIssue: "",
-                other: "Indicates whether other national/funder/sectorial/departmental procedures for data management are used"
+                other: "Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
             }
         }
     }

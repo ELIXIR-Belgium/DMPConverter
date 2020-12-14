@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b025ea8f.chunk.css",
-    "main.js": "/static/js/main.0bac3ecf.chunk.js",
-    "main.js.map": "/static/js/main.0bac3ecf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.844668cf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.844668cf.js.map",
-    "static/css/2.ac046694.chunk.css": "/static/css/2.ac046694.chunk.css",
-    "static/js/2.627d24a5.chunk.js": "/static/js/2.627d24a5.chunk.js",
-    "static/js/2.627d24a5.chunk.js.map": "/static/js/2.627d24a5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fc420b2ebf21735d7a9b7d86d8a3d7e4.js": "/precache-manifest.fc420b2ebf21735d7a9b7d86d8a3d7e4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.ac046694.chunk.css.map": "/static/css/2.ac046694.chunk.css.map",
-    "static/css/main.b025ea8f.chunk.css.map": "/static/css/main.b025ea8f.chunk.css.map",
-    "static/js/2.627d24a5.chunk.js.LICENSE.txt": "/static/js/2.627d24a5.chunk.js.LICENSE.txt"
+    "main.css": "https://fairdomhub.be/converter/static/css/main.b025ea8f.chunk.css",
+    "main.js": "https://fairdomhub.be/converter/static/js/main.cdaecb56.chunk.js",
+    "main.js.map": "https://fairdomhub.be/converter/static/js/main.cdaecb56.chunk.js.map",
+    "runtime-main.js": "https://fairdomhub.be/converter/static/js/runtime-main.75e8cfbb.js",
+    "runtime-main.js.map": "https://fairdomhub.be/converter/static/js/runtime-main.75e8cfbb.js.map",
+    "static/css/2.ac046694.chunk.css": "https://fairdomhub.be/converter/static/css/2.ac046694.chunk.css",
+    "static/js/2.627d24a5.chunk.js": "https://fairdomhub.be/converter/static/js/2.627d24a5.chunk.js",
+    "static/js/2.627d24a5.chunk.js.map": "https://fairdomhub.be/converter/static/js/2.627d24a5.chunk.js.map",
+    "index.html": "https://fairdomhub.be/converter/index.html",
+    "precache-manifest.ee8cb12178d4b79acd3ccd55b3eec7db.js": "https://fairdomhub.be/converter/precache-manifest.ee8cb12178d4b79acd3ccd55b3eec7db.js",
+    "service-worker.js": "https://fairdomhub.be/converter/service-worker.js",
+    "static/css/2.ac046694.chunk.css.map": "https://fairdomhub.be/converter/static/css/2.ac046694.chunk.css.map",
+    "static/css/main.b025ea8f.chunk.css.map": "https://fairdomhub.be/converter/static/css/main.b025ea8f.chunk.css.map",
+    "static/js/2.627d24a5.chunk.js.LICENSE.txt": "https://fairdomhub.be/converter/static/js/2.627d24a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.844668cf.js",
+    "static/js/runtime-main.75e8cfbb.js",
     "static/css/2.ac046694.chunk.css",
     "static/js/2.627d24a5.chunk.js",
     "static/css/main.b025ea8f.chunk.css",
-    "static/js/main.0bac3ecf.chunk.js"
+    "static/js/main.cdaecb56.chunk.js"
   ]
 }

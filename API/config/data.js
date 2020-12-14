@@ -4,7 +4,7 @@ const data = {
         projectNumber: "[FWO, ERC, H2020] Project number.",
         projectTitle: "[FWO, H2020] Project title.",
         projectAcronym: "[ERC, H2020] Project acronym.",
-        affiliation: "[FWO] Affiliation",
+        affiliation: "[FWO] Affiliation.",
         
         versionNumber: "[H2020] Version number.",
         versionChanges: "[H2020] Changes in this version.",

@@ -1,0 +1,2121 @@
+{
+  "version": { "type": "Version", "id": 881, "title": "Full DMP" },
+  "id": 4981,
+  "type": "Plan",
+  "url": "http://preview.dmponline.be/projects/3951/plans/4981/edit",
+  "sections": [
+    {
+      "id": 3411,
+      "type": "Section",
+      "number": 1,
+      "title": "Project Information",
+      "questions": [
+        {
+          "id": 9591,
+          "type": "Question",
+          "text": "[FWO] Name applicant.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 2,
+            "type": "QuestionFormat",
+            "title": "Text field",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9601,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Project number.",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 2,
+            "type": "QuestionFormat",
+            "title": "Text field",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9611,
+          "type": "Question",
+          "text": "[FWO, H2020] Project title.",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 2,
+            "type": "QuestionFormat",
+            "title": "Text field",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [
+            {
+              "id": 29,
+              "type": "Theme",
+              "title": "Project Name",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9621,
+          "type": "Question",
+          "text": "[ERC, H2020] Project acronym.",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 2,
+            "type": "QuestionFormat",
+            "title": "Text field",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [
+            {
+              "id": 29,
+              "type": "Theme",
+              "title": "Project Name",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9631,
+          "type": "Question",
+          "text": "[FWO] Affiliation.",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3421,
+      "type": "Section",
+      "number": 2,
+      "title": "Versioning Information",
+      "questions": [
+        {
+          "id": 9641,
+          "type": "Question",
+          "text": "Version number.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 2,
+            "type": "QuestionFormat",
+            "title": "Text field",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8131,
+              "type": "SuggestedAnswer",
+              "text": "v01",
+              "is_example": true,
+              "created_at": "2020-12-09T10:25:17Z",
+              "updated_at": "2020-12-09T10:25:17Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9651,
+          "type": "Question",
+          "text": "Changes in this version.",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9661,
+          "type": "Question",
+          "text": "Completion date of first version.",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9671,
+          "type": "Question",
+          "text": "Date of the last update.",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 2,
+            "type": "QuestionFormat",
+            "title": "Text field",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3321,
+      "type": "Section",
+      "number": 3,
+      "title": "Datasets Information",
+      "questions": [
+        {
+          "id": 9171,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Will you generate/collect new data and/or make use of existing data? Specify how you will use existing data.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7661,
+              "type": "SuggestedAnswer",
+              "text": "1) I will re-use existing open access datasets on [add your topic] by combining them with my new data; no limits for sharing and re-use. \r\n2) I will only generate new data; existing data on [this topic] are sparse and inadequate because [give reasons]. \r\n3) I will re-use only open access metadata of [Dataset Name] with closed access data.\r\n4) I will pay [X]€ to access [Dataset Name] from [Company Name]: data will not be shared, only metadata will be open access.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 9,
+              "type": "Theme",
+              "title": "Existing Data",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 14871,
+              "type": "Option",
+              "text": "Generate new data",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z",
+              "themes": []
+            },
+            {
+              "id": 14881,
+              "type": "Option",
+              "text": "Reuse existing data",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9201,
+          "type": "Question",
+          "text": "[ERC] Name and list here all datasets that will be used and/or generated in this project. Add a reference for existing datasets.",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7691,
+              "type": "SuggestedAnswer",
+              "text": "1) Existing datasets: [name and access number or reference or DOI]. New datasets: [your analysis type] by [your technique] on [your organism]. Software [Name] for [your application].\r\n2) New: RNA-seq on Arabidopsis. Phenotype analysis by imaging. Existing: Arabidopsis dataset E-MTAB-XXXX. \r\n3) New: Methylation by LC/MS. \r\n4) New: Biomodel of X protein complex.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9181,
+          "type": "Question",
+          "text": "[H2020] Per dataset, state its purpose, explain the relation to the objectives of the project, specify to whom it will be useful.",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7671,
+              "type": "SuggestedAnswer",
+              "text": "1) Datasets [Name] and [Name] are needed to evaluate the role of [your factor] on [your variable], as described in the objective number [X] in this project. Other researchers and industries involved in [list topics] will be interested in these data.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9191,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Per dataset, state its origin/source.",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7681,
+              "type": "SuggestedAnswer",
+              "text": "1) Datasets [Name] and [Name] are [laboratory/field/preclinical experiments] on [organism].\r\n2) Datasets [Name] consists of measurements performed in the lab by a partner in a different (part of the) country.\r\n2) Dataset [Name] is a combination of existing data and new experimental data of [X] and [Y] platform/consortium.\r\n3) The source of [dataset name] is a collection of existing [studies/books/publications]. \r\n4) The source of datasets [Name] and [Name] are quantitative [survey/interview/questionnaire] collected by a team of survey takers we hire.\r\n5) Dataset [Name] is a [qualitative or quantitative observational] study on [population/topic/subject].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9211,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Per dataset, state digital format(s) of raw and processed data files, distinguishing proprietary from open format(s).",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7701,
+              "type": "SuggestedAnswer",
+              "text": "1) Raw and/or processed [numeric/video/audio/text...] data files of datasets [Name] and [Name] are in this [proprietary/open] [formats]. \r\n2) Raw images of the dataset \"Phenotype analysis by imaging\" are in open format JPEG; spreadsheet of the processed quantification data are in open .csv format.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 27,
+              "type": "Theme",
+              "title": "Data Format",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9221,
+          "type": "Question",
+          "text": "[ERC, H2020] What methods or software tools are needed to access data files in proprietary format? Is documentation about the software needed to open the data file provided in the metadata? Is it possible to provide the relevant software (e.g. in open source code)?",
+          "default_value": "",
+          "number": 6,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7711,
+              "type": "SuggestedAnswer",
+              "text": "1) Data files in proprietary formats [x,y,z] can be accessed by the software [X and Y], which are open; software info will be described in the documentation associated with the data files. \r\n2) Format [x] can only be opened with the proprietary software [Y]; no open format nor open software exists for this data type; software info will be described in the documentation associated with the data files. \r\n2) Software to access data files will be provided as open source.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9231,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Per dataset, state its expected volume at the end of the project.",
+          "default_value": "",
+          "number": 7,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7721,
+              "type": "SuggestedAnswer",
+              "text": "1) Phenotype analysis: X images in Y format is about XXX GB; RNA-seq on Arabidopsis: 200 files are about 200GB.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:34Z",
+              "updated_at": "2020-12-09T09:09:34Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 19,
+              "type": "Theme",
+              "title": "Data Volumes",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3331,
+      "type": "Section",
+      "number": 4,
+      "title": "Datasets Sharing and Reuse",
+      "questions": [
+        {
+          "id": 9241,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Which datasets will be shared and made available (for the society) after the end of the project? Distinguish open access datasets from restricted or closed access datasets.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7731,
+              "type": "SuggestedAnswer",
+              "text": "1) Open access: Datasets [Name] and [Name]; Restricted access: Datasets [Name] and [Name]; Closed access: Datasets [Name]. \r\n2) All datasets will be open access.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9251,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Are there any factors restricting or preventing the sharing of (some of) the data? Per dataset with restricted or closed access, provide a rationale for doing so.",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7741,
+              "type": "SuggestedAnswer",
+              "text": "1) The legal agreement with a 3rd party states the following: [explain briefly]. \r\n2) Dataset [Name] contains personal data that require restricted access, only metadata will be open.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 10,
+              "type": "Theme",
+              "title": "Restrictions on Sharing",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 14891,
+              "type": "Option",
+              "text": "No",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14901,
+              "type": "Option",
+              "text": "Yes, Intellectual Property (IP): the researcher involved and the IP team shall make the necessary arrangements in order to maintain the embargo on the data access, at least until essential steps in securing intellectual property have been taken.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14911,
+              "type": "Option",
+              "text": "Yes, 3rd party agreement or classified data: the researcher involved and the Legal Team of the TechTransfer Office will specify the restrictions below, in this DMP.",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14921,
+              "type": "Option",
+              "text": "Yes, ethical and/or legal issues (personal/sensitive data): the researcher involved and the Data Protection Officer will specify how compliance to GDPR impacts data sharing below, in this DMP.",
+              "number": 4,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15431,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 5,
+              "is_default": false,
+              "created_at": "2020-12-09T11:55:17Z",
+              "updated_at": "2020-12-09T11:55:17Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9271,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Per dataset, list the repositories in which data, metadata, code, software and related documentation will be shared. If research materials and protocols will be shared in centralised repositories, specify it below.",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7761,
+              "type": "SuggestedAnswer",
+              "text": "1) Datasets [Name] and [Name]: [Repository Name].\r\n2) RNA-seq on Arabidopsis: ArrayExpress. Code on Github. \r\n3) Biomodel of X protein complex: BioModels. Code and software on Github.\r\n4) Plasmids in Addgene.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 11,
+              "type": "Theme",
+              "title": "Data Repository",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 14931,
+              "type": "Option",
+              "text": "In an Open Access repository",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14941,
+              "type": "Option",
+              "text": "In a restricted access repository",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14951,
+              "type": "Option",
+              "text": "Upon request by email",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14961,
+              "type": "Option",
+              "text": "Other (specify below)",
+              "number": 4,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9261,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Per dataset with restricted access, explain how access will be provided (under what conditions or procedure).",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7751,
+              "type": "SuggestedAnswer",
+              "text": "1) Access to [restricted dataset] can be granted only [explain under what condition]. \r\n2) Access to restricted datasets will be granted by a Data Access Committee (DAC). \r\n3) Access to restricted datasets will be granted by the Institutional authentication procedure.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 21,
+              "type": "Theme",
+              "title": "Managed Access Procedures",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9281,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Per dataset, state when it will be made available. Is embargo foreseen?",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7771,
+              "type": "SuggestedAnswer",
+              "text": "All datasets: Upon publication of research results.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 12,
+              "type": "Theme",
+              "title": "Timeframe For Data Sharing",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 14971,
+              "type": "Option",
+              "text": "Immediately after the end of the project",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14981,
+              "type": "Option",
+              "text": "Upon publication of the research results",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 14991,
+              "type": "Option",
+              "text": "After an embargo period. Specify the length of the embargo and why it is necessary below",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9291,
+          "type": "Question",
+          "text": "[ERC, H2020] Per dataset, state how it will be licensed to permit the widest re-use possible. If the re-use of some data is restricted, explain why and specify the length of time for which the data will remain re-usable.",
+          "default_value": "",
+          "number": 6,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7781,
+              "type": "SuggestedAnswer",
+              "text": "1) All datasets: CC-BY-4.0. No time limit for reusability. \r\n2) Software [Name]: AGPLv3.\r\n",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 20,
+              "type": "Theme",
+              "title": "IPR Ownership and Licencing",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 15001,
+              "type": "Option",
+              "text": "Each dataset will follow the license policy of the repository in which it will be shared.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15011,
+              "type": "Option",
+              "text": "All datasets: CC-BY-4.0. No time limit for reusability. ",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15021,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3341,
+      "type": "Section",
+      "number": 5,
+      "title": "Documentation and Metadata",
+      "questions": [
+        {
+          "id": 9301,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Will a metadata scheme be used? Per dataset, state the standard metadata or the customized metadata schemes that will be used.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7791,
+              "type": "SuggestedAnswer",
+              "text": "1) All datasets will be described according to the discipline-specific standard metadata [Name of the standard]. \r\n2) Since standard metadata schemes are not suitable, we will use the following metadata scheme to describe all datasets: i)Title, ii)Description, iii)Date, iv)Creator, v)Rights/license, vi)Format, vii)Volume, viii)Experimental factors, ix) Species, x)Observational Unit, xi)Replicates, xii)Response variable, xiii) Technique, xiv)Experimental design [other].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 23,
+              "type": "Theme",
+              "title": "Metadata",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 15031,
+              "type": "Option",
+              "text": "Yes. Each dataset will follow the metadata scheme of the repository in which it will be shared.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15041,
+              "type": "Option",
+              "text": "Yes. The chosen standard metadata will be described below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15051,
+              "type": "Option",
+              "text": "Yes. The customised metadata scheme will be described below.",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15441,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 4,
+              "is_default": false,
+              "created_at": "2020-12-09T15:29:09Z",
+              "updated_at": "2020-12-09T15:29:09Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9311,
+          "type": "Question",
+          "text": "[ERC, H2020] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15061,
+              "type": "Option",
+              "text": "Each dataset will have the identifiers or accession numbers provided by the repository in which it will be shared.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15071,
+              "type": "Option",
+              "text": " We will generate a persistent identifier or a DOI for each dataset. Details will be specified below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15451,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T15:32:26Z",
+              "updated_at": "2020-12-09T15:32:26Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9321,
+          "type": "Question",
+          "text": "[ERC, H2020] Will you use a controlled vocabulary or standard ontology to describe your data? Per dataset, state the standard ontologies you will use or the mapping of your vocabulary to standard ontologies.",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7811,
+              "type": "SuggestedAnswer",
+              "text": "1) Ontologies required by the chosen data repositories will be used. \r\n2) All datasets will be described by using the following ontologies: Experimental Factor Ontology (EFO), Statistics Ontology (STATO) and Plant Ontology (PO). \r\n3) For datasets [Name], standard ontologies are not suitable, but we will create a controlled vocabulary and map it to the standard ontologies [Names].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15081,
+              "type": "Option",
+              "text": "Each dataset will use the ontology supported by the repository in which it will be shared.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15091,
+              "type": "Option",
+              "text": "A customised vocabulary will be used and the mapping to standard ontologies will be explained in documentation and summarised below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15461,
+              "type": "Option",
+              "text": "Datasets require the use of uncommon or project specific ontologies or vocabularies that cannot be mapped to commonly used ontologies.  Definition of the used terms will be provided in documentation.",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T15:35:40Z",
+              "updated_at": "2020-12-09T15:35:40Z",
+              "themes": []
+            },
+            {
+              "id": 15471,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 3,
+              "is_default": false,
+              "created_at": "2020-12-09T15:35:40Z",
+              "updated_at": "2020-12-09T15:35:40Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9331,
+          "type": "Question",
+          "text": "[FWO, H2020] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
+          "default_value": "<p>All the information to enable understanding and re-use of our datasets will be provided as detailed description in repositories' dedicated spaces or as README.txt file in attachment to each dataset. We will describe: Used file naming convetion, keywords, versioning approach, column names for tabular data, unit of measurements, performed calculations, materials, methods and license.</p>",
+          "number": 4,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7821,
+              "type": "SuggestedAnswer",
+              "text": "1) In ArrayExpress \"Protocols\" section, we will explain the file naming convention, column names for tabular data, performed calculations, materials and methods. Identifier of the associated open access article describing materials and methods will be provided.\r\n2) In Github, each well-annotated script will have a README.txt file containing all metadata and the following additional information: version, how to use the script, [etc...]. \r\n3) In Zenodo, metadata and additional information will be provided in the \"Description\" section. Metadata about each data entry will be provided as structured machine readable .csv file in attachment.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 24,
+              "type": "Theme",
+              "title": "Documentation",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "options": [
+            {
+              "id": 15101,
+              "type": "Option",
+              "text": "All the information to enable understanding and re-use of datasets (i.e. Metadata) will be provided as an attached README.txt file in each repository. Details will be specified below.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15111,
+              "type": "Option",
+              "text": "All the information to enable understanding and re-use of datasets (i.e. Metadata) will be provided as detailed description in repositories' dedicated fields. Details will be specified below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3351,
+      "type": "Section",
+      "number": 6,
+      "title": "Costs for Datasets Sharing and Reuse",
+      "questions": [
+        {
+          "id": 9341,
+          "type": "Question",
+          "text": "[H2020] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7831,
+              "type": "SuggestedAnswer",
+              "text": "1) Making data more FAIR will not have any cost, because we will use open source ELN, open source resources and software for data management and analysis during the project (DMPonline, OSF, FAIRDOMHub, UseGalaxy.be, R, GitHub).\r\n2) Making data more FAIR will not have any cost, because we will use recommended open source software and resources for data management. A common system for organisation of folders/files and curation of documentation has been implemented by the lab manager.\r\n3) Costs of data compliance consultancy will be approximately X€.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9351,
+          "type": "Question",
+          "text": "[H2020] How will these costs (for making data FAIR) be covered?",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7841,
+              "type": "SuggestedAnswer",
+              "text": "1) No costs expected.\r\n\r\n2) These costs will be covered by [X] funding.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9361,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] What are the expected costs for data sharing and reuse?",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15121,
+              "type": "Option",
+              "text": "Data will be shared and made available in public repositories which are free of charge.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15481,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T16:09:35Z",
+              "updated_at": "2020-12-09T16:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9371,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] How will these costs (for data sharing and reuse) be covered?",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7861,
+              "type": "SuggestedAnswer",
+              "text": "1) No costs expected.\r\n\r\n2) These costs will be covered by [X] funding.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3361,
+      "type": "Section",
+      "number": 7,
+      "title": "(Meta)Data Storage During the Project",
+      "questions": [
+        {
+          "id": 9381,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Where will the data be stored during the project?",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7871,
+              "type": "SuggestedAnswer",
+              "text": "1) On [techn type], hosted [by]. \r\n2) Small digital file containing confidential data will be stored on secure network drive [X], hosted and maintained by university ICT department.\r\n3) Big ditital file [>XXX GB], on external cloud platform [X], contracted by our research department.\r\n4) On Sharepoint of our collaborator at [X] institute.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9391,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] What is the backup strategy?",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7881,
+              "type": "SuggestedAnswer",
+              "text": "1) On the shares, ‘snapshots’ of the data are made every [X] hours. Snapshots allow you to retrieve (older versions of) files.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9401,
+          "type": "Question",
+          "text": "[FWO] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7891,
+              "type": "SuggestedAnswer",
+              "text": "1) Storage is allocated in a project based manner (according to estimated volumes of data generation and analysis); sufficient storage capacity will be ensured for the project at [Institute Name].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15131,
+              "type": "Option",
+              "text": "Yes. See details below.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15141,
+              "type": "Option",
+              "text": "No. See details below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9411,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] What are the expected costs for data storage and backup during the project?",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7901,
+              "type": "SuggestedAnswer",
+              "text": "1) 4 years storage and backup for this project will cost about 2000€.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9421,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] How will these costs (for data storage and backup during the project) be covered?",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7911,
+              "type": "SuggestedAnswer",
+              "text": "1) Costs for data storage and backup during the project will be covered by [X] funding.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9431,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorised persons), especially for sensitive data.",
+          "default_value": "",
+          "number": 6,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7921,
+              "type": "SuggestedAnswer",
+              "text": "1) My laptop will be password-protected. The internal external hard drive (for backups) will be encrypted using [Encryption system name] (as suggested by IT). Files holding personal data will also be encrypted with password-protection. Read-only permissions will be implemented for raw data files on the Network Shared Drive so that they cannot be edited. Files containing personal data will be stored in access-controlled folders on the university network drive to protect privacy.\r\n2) Data will be handled in accordance with university information security guidelines, involving measures proportionate to their nature and the risks involved. Lab computers and external drives will be password-protected, and the rooms in which they are kept will be locked when no lab members are present. Security upgrades to operating systems will be regularly performed. Read-only permissions will be implemented for raw data files so that they cannot be edited.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [
+            {
+              "id": 6,
+              "type": "Theme",
+              "title": "Data Security",
+              "created_at": "2015-06-29T08:23:28Z",
+              "updated_at": "2015-06-29T08:23:28Z"
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3371,
+      "type": "Section",
+      "number": 8,
+      "title": "(Meta)Data Long Term Preservation",
+      "questions": [
+        {
+          "id": 9441,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] List which datasets will be preserved or not, for at least 5-10 years after the end of the project and explain why (legal, contractual restrictions etc..).",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7931,
+              "type": "SuggestedAnswer",
+              "text": "1) All the generated datasets will be stored for long term. \r\n2) All relevant data for reuse and experiment replicability will be preserved for 10 years after the end of the project. \r\n3) Dataset [Name] will be deleted after [X] years because of the following [contractual, legal, ethical...] reasons: [explain].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9451,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Where will datasets be stored for long term (archived) after the end of the project?",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7941,
+              "type": "SuggestedAnswer",
+              "text": "1) All datasets will also be stored for long term and archived in the [X center] of [University Name].\r\n2) Datasets to which data sharing restrictions apply will be stored in-house according to the following secure measures: [specify].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15211,
+              "type": "Option",
+              "text": "The same repositories used for data sharing will ensure long term storage.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15221,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9461,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] Estimate the costs for long term preservation (or archiving).",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7951,
+              "type": "SuggestedAnswer",
+              "text": "1) Long term preservation of [X]TB for 10 years at [University Name] will cost about 2000€.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15231,
+              "type": "Option",
+              "text": "The chosen data repositories provide long term storage free of charge.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15241,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9471,
+          "type": "Question",
+          "text": "[FWO, ERC, H2020] How will these costs (for long term preservation) be covered?",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7961,
+              "type": "SuggestedAnswer",
+              "text": "1) These costs will be covered by [Name] funding.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15251,
+              "type": "Option",
+              "text": "No costs expected.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15261,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9481,
+          "type": "Question",
+          "text": "[ERC, H2020] Data security: are the datasets safely stored in repositories for long term preservation and curation?",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7971,
+              "type": "SuggestedAnswer",
+              "text": "1) The archiving system of [University Name] will guarantee data security.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15271,
+              "type": "Option",
+              "text": "Yes, the chosen data repositories will ensure data security.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15281,
+              "type": "Option",
+              "text": "Other. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3381,
+      "type": "Section",
+      "number": 9,
+      "title": "Responsibilities",
+      "questions": [
+        {
+          "id": 9491,
+          "type": "Question",
+          "text": "[ERC, H2020] Describe data quality assurance processes and who will be responsible for it.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9501,
+          "type": "Question",
+          "text": "[FWO, H2020] Who will be responsible for the data documentation and metadata?",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 7991,
+              "type": "SuggestedAnswer",
+              "text": "1) The experimentalist [PhD student, PostDoc...] will be responsible for day to day operations, and PI for the overall responsibility.\r\n2) The PI (and/or dedicated people from his/her research team) bears the overall responsibility for documentation and metadata.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9511,
+          "type": "Question",
+          "text": "[FWO, H2020] Who will be responsible for data storage and backup during the project?",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8001,
+              "type": "SuggestedAnswer",
+              "text": "1) The research and the IT team will be responsible for data storage and backup.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9521,
+          "type": "Question",
+          "text": "[FWO, H2020] Who will be responsible for ensuring data preservation and sharing?",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8011,
+              "type": "SuggestedAnswer",
+              "text": "1) The the repositories [Names] holding the datasets will be responsible for data preservation and sharing, as outlined in the terms and conditions by which they offer their services. The Principal Investigator is responsible for local data preservation and sharing, with the support of the IT Team. \r\n3) Local data preservation will be the responsibility of the IT Team of [Institute Name]; the PI bears the overall responsibility for data sharing.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        },
+        {
+          "id": 9531,
+          "type": "Question",
+          "text": "[FWO, H2020] Who bears the end responsibility for updating and implementing this DMP?",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 1,
+            "type": "QuestionFormat",
+            "title": "Text area",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8021,
+              "type": "SuggestedAnswer",
+              "text": "1) The Principal Investigator bears overall responsibility for all data management during and after data collection, including updating and implementing the DMP.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3391,
+      "type": "Section",
+      "number": 10,
+      "title": "Ethical and Legal Issues",
+      "questions": [
+        {
+          "id": 9541,
+          "type": "Question",
+          "text": "[FWO, H2020] Will you use personal/sensitive data? If so, shortly describe the kind of personal data you will use AND add the reference to your file in your host institution's privacy register.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8031,
+              "type": "SuggestedAnswer",
+              "text": "-\tPrivacy Registry Reference:\r\n-\tShort description of the kind of personal data that will be used:\r\n",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15361,
+              "type": "Option",
+              "text": "No.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15351,
+              "type": "Option",
+              "text": "Yes. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9551,
+          "type": "Question",
+          "text": "[FWO, H2020] Are there any ethical issues concerning the creation and/or use of the data (e.g. experiments on humans or animals, dual use)? If so, add the reference to the formal approval by the relevant ethical review committee(s).",
+          "default_value": "",
+          "number": 2,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8041,
+              "type": "SuggestedAnswer",
+              "text": "1) Ethical approval XXXXXX: [Dataset name or project title]. \r\n2) Ethical approval S56289: Transcriptomic in human primary cells.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15371,
+              "type": "Option",
+              "text": "No.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15381,
+              "type": "Option",
+              "text": "Yes. See below the list all the relevant ethical approval numbers and the title of the related project.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9561,
+          "type": "Question",
+          "text": "[FWO] Will Intellectual property restrictions be claimed for your data? If so, for what data and which restrictions will be asserted?",
+          "default_value": "",
+          "number": 3,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8051,
+              "type": "SuggestedAnswer",
+              "text": "1) If there is substantial potential, the invention will be IP protected (mostly patent protection); data will be made public after the IP application becomes public (X months after IP application).\r\n2) If there is substantial potential, the invention will be IP protected. Data will be under embargo until IP application becomes public (X months after IP application). The Legal Team of the TechTransfer Office will be consulted.",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15391,
+              "type": "Option",
+              "text": "No.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15401,
+              "type": "Option",
+              "text": "Yes. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9571,
+          "type": "Question",
+          "text": "[FWO] Do existing 3rd party agreements restrict dissemination or exploitation of the data you (re)use? If so, to what data do they relate and what restrictions are in place?",
+          "default_value": "",
+          "number": 4,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [
+            {
+              "id": 8061,
+              "type": "SuggestedAnswer",
+              "text": "1) Because of 3rd party agreements, the following restrictions are in place for dataset [Name]: [explain].",
+              "is_example": true,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z"
+            }
+          ],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15411,
+              "type": "Option",
+              "text": "No.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            },
+            {
+              "id": 15421,
+              "type": "Option",
+              "text": "Yes, specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T09:09:35Z",
+              "updated_at": "2020-12-09T09:09:35Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": 9681,
+          "type": "Question",
+          "text": "[H2020] Indicate whether other national/funder/sectorial/departmental procedures for data management are used.",
+          "default_value": "",
+          "number": 5,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15491,
+              "type": "Option",
+              "text": "No.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T17:03:16Z",
+              "updated_at": "2020-12-09T17:03:16Z",
+              "themes": []
+            },
+            {
+              "id": 15501,
+              "type": "Option",
+              "text": "Yes. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T17:03:16Z",
+              "updated_at": "2020-12-09T17:03:16Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 3401,
+      "type": "Section",
+      "number": 11,
+      "title": "Other",
+      "questions": [
+        {
+          "id": 9581,
+          "type": "Question",
+          "text": "[H2020] Indicate whether other national/funder/sectorial/departmental procedures for data management are used.",
+          "default_value": "",
+          "number": 1,
+          "question_format": {
+            "id": 4,
+            "type": "QuestionFormat",
+            "title": "Check box",
+            "description": null,
+            "created_at": "2015-06-29T08:23:28Z",
+            "updated_at": "2015-06-29T08:23:28Z"
+          },
+          "suggested_answers": [],
+          "answer": null,
+          "themes": [],
+          "options": [
+            {
+              "id": 15511,
+              "type": "Option",
+              "text": "No.",
+              "number": 1,
+              "is_default": false,
+              "created_at": "2020-12-09T17:04:44Z",
+              "updated_at": "2020-12-09T17:04:44Z",
+              "themes": []
+            },
+            {
+              "id": 15521,
+              "type": "Option",
+              "text": "Yes. Specify below.",
+              "number": 2,
+              "is_default": false,
+              "created_at": "2020-12-09T17:04:44Z",
+              "updated_at": "2020-12-09T17:04:44Z",
+              "themes": []
+            }
+          ],
+          "comments": []
+        }
+      ]
+    }
+  ]
+}

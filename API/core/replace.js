@@ -61,17 +61,16 @@ const replace = async (content, funder) => {
       let Q, guide;
       if (Array.isArray(root[section][funderQ])) {
         Q = root[section][funderQ][0];
-        guide = "• " + root[section][funderQ][1] + "૾";
+        if (root[section][funderQ].length > 1) guide = "• " + root[section][funderQ][1] + "૾";
       } else Q = root[section][funderQ];
-
+      const ans = answers[funderQ].join("\n");
       if (Q == prevQ) {
-        lastItem(outputHtml["sections"][newSection]).A += guide
-          ? guide + answers[funderQ].join("\n") + "\n"
-          : "\n" + answers[funderQ].join("\n") + "\n";
+        if (ans)
+          lastItem(outputHtml["sections"][newSection]).A += guide ? guide + ans + "\n" : "\n" + ans + "\n";
       } else {
         outputHtml["sections"][newSection].push({
           Q: Q,
-          A: guide ? guide + answers[funderQ].join("\n") + "\n" : answers[funderQ].join("\n") + "\n",
+          A: ans ? (guide || "") + ans + "\n" : "",
         });
       }
       prevQ = Q;

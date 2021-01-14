@@ -2,18 +2,23 @@ const fs = require("fs");
 const Path = require("path");
 const tempPath = Path.resolve(__dirname, "..") + "/temp/";
 const PDF = require("pdf-creator-node");
+const Handlebars = require("handlebars");
 const util = require("util");
 const formidable = require("formidable");
 const readFile = util.promisify(fs.readFile);
 const replace = require("./replace");
 const provideTemplate = (funder) => {
-  return fs.readFileSync(Path.resolve(__dirname, "..") + `/templates/${funder}.html`, "utf8");
+  return fs.readFileSync(Path.resolve(__dirname, "..") + `/templates/default.html`, "utf8");
 };
-// Handlebars.registerHelper('breaklines', function(text) {
-//     text = Handlebars.Utils.escapeExpression(text);
-//     text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
-//     return new Handlebars.SafeString(text);
-// });
+
+Handlebars.registerHelper("breaklines", function (text) {
+  text = Handlebars.Utils.escapeExpression(text);
+  text = text.replace(/•/g, "<a>• ");
+  text = text.replace(/૾/g, "</a> ");
+  text = text.replace(/(\r\n|\n|\r)/gm, "<br>");
+  return new Handlebars.SafeString(text);
+});
+
 const Core = {
   read: (file) => {
     return readFile(file, "utf8");
@@ -31,6 +36,7 @@ const Core = {
       await PDF.create(doc, options);
       return name;
     } catch (err) {
+      console.log(err);
       return "error";
     }
   },

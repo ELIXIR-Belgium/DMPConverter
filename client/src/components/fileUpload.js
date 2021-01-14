@@ -3,6 +3,9 @@ import { FilePond } from "react-filepond";
 import "filepond/dist/filepond.min.css";
 const Url = process.env.PUBLIC_URL;
 
+const FilePondLanguage = {
+  labelIdle: `Drag&Drop or  <span class="filepond--label-action">Browse</span> your file exported from DMPonline in .TXT format.`,
+};
 class FileUpload extends Component {
   render() {
     const { selectedFunder } = this.props;
@@ -20,7 +23,7 @@ class FileUpload extends Component {
     };
     return (
       <div className="uploadContainer">
-        <FilePond allowMultiple={true} server={server} />
+        <FilePond {...FilePondLanguage} allowMultiple={true} server={server} />
       </div>
     );
   }

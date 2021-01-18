@@ -236,8 +236,6 @@ const data = {
             ethicalAspects: {
                 PersonalData: ["Ethical aspects", "Use of personal /sensitive data:"],
                 EthicalIssue: ["Ethical aspects", "Ethical issues:"],
-                IntellectualProperty: "Ethical aspects",
-                LegalIssue: "",
                 other: "Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
             }
         }

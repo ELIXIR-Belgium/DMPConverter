@@ -1,6 +1,6 @@
 const data = {
     Questions: {
-        nameApplicant: "[FWO] Name applicant.",
+        nameApplicant: "1. [FWO] Name applicant.",
         projectNumber: "[FWO, ERC, H2020] Project number.",
         projectTitle: "[FWO, H2020] Project title.",
         projectAcronym: "[ERC, H2020] Project acronym.",

@@ -83,8 +83,8 @@ const data = {
                 sharingRepos: "Where/how will the data be made available for reuse? ",
                 accessProcedure: "Who will be able to access the data and under what conditions?",
                 datasetsEmbargo: "When will the data be made available?",
-                costSharing: "What are the expected costs for data sharing? How will these costs be covered?",
-                costSharingCover: "What are the expected costs for data sharing? How will these costs be covered?"
+                costSharing: ["What are the expected costs for data sharing? How will these costs be covered?", "Costs for data sharing:"],
+                costSharingCover: ["What are the expected costs for data sharing? How will these costs be covered?", "Funding for data sharing costs:"]
             },
             documentation: {
                 datasetsMetadata: "Will a metadata standard be used? Describe in detail which standard will be used.  If not, state in detail which metadata will be created to make the data easy/easier to find and reuse.",

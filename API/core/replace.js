@@ -55,7 +55,7 @@ const replace = async (content, funder) => {
   outputHtml["sections"] = {};
   const root = data[funder].sections;
   for (const section in root) {
-    let newSection = unCamelCase(section);
+    let newSection = section; // unCamelCase(section);
     outputHtml["sections"][newSection] = [];
     for (const funderQ in root[section]) {
       let Q, guide;

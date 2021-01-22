@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
     <head>
@@ -77,6 +77,67 @@
         table {
             page-break-inside: avoid;
             display: block
+        }
+
+    </style>
+
+</html> -->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <mate charest="utf-8" />
+        <title>Converted document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>{{data.funder}}</h1>
+        {{#each data.sections}}
+        <div class="extraBold">{{@key}}</div>
+        <div>
+            <ul>{{#each this}} <li class="bold"><strong>{{breaklines this.Q}}</strong></li>
+                <li>{{breaklines this.A}}<br></li> {{/each}}
+            </ul>
+        </div>
+         {{/each}}
+    </body>
+    <style>
+        a {
+            color: grey !important
+        }
+
+        p {
+            color: black
+        }
+
+        ul {
+            list-style-type: none;
+            list-style: none;
+        }
+
+        .pad {
+            padding-left: 5px;
+            font-size: 14px;
+            height: 25px;
+            font-weight: bold;
+        }
+
+        body {
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .bold {
+            font-weight: 600 !important;
+            font-family: 'Open Sans' !important;
+          
+        }
+
+        .extraBold {
+            font-weight: 800 !important;
+            font-family: 'Open Sans' !important;
+            font-size: 14px
         }
 
     </style>

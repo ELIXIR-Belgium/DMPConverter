@@ -8,6 +8,8 @@ const formidable = require("formidable");
 const readFile = util.promisify(fs.readFile);
 const replace = require("./replace");
 const provideTemplate = (funder) => {
+  if (funder == "fwo")
+    return fs.readFileSync(Path.resolve(__dirname, "..") + `/templates/fwo.html`, "utf8");
   return fs.readFileSync(Path.resolve(__dirname, "..") + `/templates/default.html`, "utf8");
 };
 

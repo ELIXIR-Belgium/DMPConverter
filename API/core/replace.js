@@ -69,7 +69,7 @@ const replace = async (content, funder) => {
           lastItem(outputHtml["sections"][newSection]).A += guide ? guide + ans + "\n" : "\n" + ans + "\n";
       } else {
         outputHtml["sections"][newSection].push({
-          Q: Q,
+          Q: Q.includes("**FORCE_SHOW**") ? Q.replace("**FORCE_SHOW**", "") : undefined, // Q,
           A: ans ? (guide || "") + ans + "\n" : "",
         });
       }

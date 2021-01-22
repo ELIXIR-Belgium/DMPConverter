@@ -120,12 +120,12 @@ const data = {
     },
     erc: {
         sections: {
-            projectInfo: {
-                projectNumber: "Project number",
-                projectAcronym: "Project acronym",
+            "Project information": {
+                projectNumber: "**FORCE_SHOW**Project number",
+                projectAcronym: "**FORCE_SHOW**Project acronym",
             },
             
-            summary: {
+            "Summary": {
                 newExistingData: ["collected/generated dataset", "New/Existing data:"],
                 datasetsList: ["dataset reference and name", "Datasets list:"],
                 datasetsOrigin: ["dataset origin", "Datasets origin:"],
@@ -172,16 +172,16 @@ const data = {
     h2020: {
         sections: {
             "Project information": {
-                projectNumber: "Project number",           
-                projectTitle: "Project title",
-                projectAcronym: "Project acronym",
+                projectNumber: "**FORCE_SHOW**Project number", // H2020 and ERC question are not shown in the output PDF, by adding **FORCE_SHOW** at the first of the question string, enforces to show      
+                projectTitle: "**FORCE_SHOW**Project title",
+                projectAcronym: "**FORCE_SHOW**Project acronym",
             },
             
             "DMP versioning": {
-                versionNumber: "Version number",           
-                versionChanges: "Description",
-                dateFirstVersion: "Date of the version",
-                lastUpdate: "Date of last update",
+                versionNumber: "**FORCE_SHOW**Version number",           
+                versionChanges: "**FORCE_SHOW**Description",
+                dateFirstVersion: "**FORCE_SHOW**Date of the version",
+                lastUpdate: "**FORCE_SHOW**Date of last update",
             },
             
             "1. Data summary": {

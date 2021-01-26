@@ -61,7 +61,7 @@ const data = {
         IntellectualProperty: "3. [FWO] Will Intellectual property restrictions be claimed for your data? If so, for what data and which restrictions will be asserted?",
         LegalIssue: "4. [FWO] Do existing 3rd party agreements restrict dissemination or exploitation of the data you (re)use? If so, to what data do they relate and what restrictions are in place?",
         
-        Other: "1. [H2020] Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
+        other: "1. [H2020] Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
         
     },
     fwo: {
@@ -238,7 +238,10 @@ const data = {
                 PersonalData: ["Ethical aspects", "Use of personal /sensitive data:"],
                 EthicalIssue: ["Ethical aspects", "Ethical issues:"],
                 other: "Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
-            }
+            },
+            other: {
+                other: "Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
+            },
         }
     }
 }

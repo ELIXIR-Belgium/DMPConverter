@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41343ed75a371f87a8c448cbd7bdca1d",
+    "revision": "92b3a35215deed89876170863b81e5fc",
     "url": "https://fairdomhub.be/converter/index.html"
   },
   {

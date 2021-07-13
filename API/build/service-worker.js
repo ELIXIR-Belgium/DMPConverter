@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://fairdomhub.be/converter/precache-manifest.ab16e760a4dac54f9ee87a2eb8145a80.js"
+  "https://fairdomhub.be/converter/precache-manifest.dfc920bc16c7ece3bbfb2ff204118a71.js"
 );
 
 self.addEventListener('message', (event) => {

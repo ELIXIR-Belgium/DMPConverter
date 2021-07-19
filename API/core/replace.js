@@ -55,7 +55,7 @@ const replace = async (content, funder) => {
   outputHtml["sections"] = {};
   const root = data[funder].sections;
   for (const section in root) {
-    let newSection = unCamelCase(section);
+    let newSection = section; // unCamelCase(section);
     outputHtml["sections"][newSection] = [];
     for (const funderQ in root[section]) {
       let Q, guide;
@@ -69,7 +69,7 @@ const replace = async (content, funder) => {
           lastItem(outputHtml["sections"][newSection]).A += guide ? guide + ans + "\n" : "\n" + ans + "\n";
       } else {
         outputHtml["sections"][newSection].push({
-          Q: Q,
+          Q: funder == "fwo" ? Q : Q.includes("**FORCE_SHOW**") ? Q.replace("**FORCE_SHOW**", "") : undefined, // Q,
           A: ans ? (guide || "") + ans + "\n" : "",
         });
       }

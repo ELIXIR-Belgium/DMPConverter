@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://fairdomhub.be/converter/static/css/main.c2e6b83e.chunk.css",
-    "main.js": "https://fairdomhub.be/converter/static/js/main.95dd8eda.chunk.js",
-    "main.js.map": "https://fairdomhub.be/converter/static/js/main.95dd8eda.chunk.js.map",
-    "runtime-main.js": "https://fairdomhub.be/converter/static/js/runtime-main.75e8cfbb.js",
-    "runtime-main.js.map": "https://fairdomhub.be/converter/static/js/runtime-main.75e8cfbb.js.map",
-    "static/css/2.ac046694.chunk.css": "https://fairdomhub.be/converter/static/css/2.ac046694.chunk.css",
-    "static/js/2.0a026638.chunk.js": "https://fairdomhub.be/converter/static/js/2.0a026638.chunk.js",
-    "static/js/2.0a026638.chunk.js.map": "https://fairdomhub.be/converter/static/js/2.0a026638.chunk.js.map",
-    "index.html": "https://fairdomhub.be/converter/index.html",
-    "precache-manifest.ab16e760a4dac54f9ee87a2eb8145a80.js": "https://fairdomhub.be/converter/precache-manifest.ab16e760a4dac54f9ee87a2eb8145a80.js",
-    "service-worker.js": "https://fairdomhub.be/converter/service-worker.js",
-    "static/css/2.ac046694.chunk.css.map": "https://fairdomhub.be/converter/static/css/2.ac046694.chunk.css.map",
-    "static/css/main.c2e6b83e.chunk.css.map": "https://fairdomhub.be/converter/static/css/main.c2e6b83e.chunk.css.map",
-    "static/js/2.0a026638.chunk.js.LICENSE.txt": "https://fairdomhub.be/converter/static/js/2.0a026638.chunk.js.LICENSE.txt"
+    "main.css": "https://datahub.elixir-belgium.org/converter/static/css/main.f5972eb4.chunk.css",
+    "main.js": "https://datahub.elixir-belgium.org/converter/static/js/main.8caf9026.chunk.js",
+    "main.js.map": "https://datahub.elixir-belgium.org/converter/static/js/main.8caf9026.chunk.js.map",
+    "runtime-main.js": "https://datahub.elixir-belgium.org/converter/static/js/runtime-main.31a570f0.js",
+    "runtime-main.js.map": "https://datahub.elixir-belgium.org/converter/static/js/runtime-main.31a570f0.js.map",
+    "static/css/2.ac046694.chunk.css": "https://datahub.elixir-belgium.org/converter/static/css/2.ac046694.chunk.css",
+    "static/js/2.78a07653.chunk.js": "https://datahub.elixir-belgium.org/converter/static/js/2.78a07653.chunk.js",
+    "static/js/2.78a07653.chunk.js.map": "https://datahub.elixir-belgium.org/converter/static/js/2.78a07653.chunk.js.map",
+    "index.html": "https://datahub.elixir-belgium.org/converter/index.html",
+    "precache-manifest.31f2b3afbbfb5af27d2de9acda952d19.js": "https://datahub.elixir-belgium.org/converter/precache-manifest.31f2b3afbbfb5af27d2de9acda952d19.js",
+    "service-worker.js": "https://datahub.elixir-belgium.org/converter/service-worker.js",
+    "static/css/2.ac046694.chunk.css.map": "https://datahub.elixir-belgium.org/converter/static/css/2.ac046694.chunk.css.map",
+    "static/css/main.f5972eb4.chunk.css.map": "https://datahub.elixir-belgium.org/converter/static/css/main.f5972eb4.chunk.css.map",
+    "static/js/2.78a07653.chunk.js.LICENSE.txt": "https://datahub.elixir-belgium.org/converter/static/js/2.78a07653.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.75e8cfbb.js",
+    "static/js/runtime-main.31a570f0.js",
     "static/css/2.ac046694.chunk.css",
-    "static/js/2.0a026638.chunk.js",
-    "static/css/main.c2e6b83e.chunk.css",
-    "static/js/main.95dd8eda.chunk.js"
+    "static/js/2.78a07653.chunk.js",
+    "static/css/main.f5972eb4.chunk.css",
+    "static/js/main.8caf9026.chunk.js"
   ]
 }

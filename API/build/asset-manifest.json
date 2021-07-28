@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "https://datahub.elixir-belgium.org/converter/static/css/main.f5972eb4.chunk.css",
-    "main.js": "https://datahub.elixir-belgium.org/converter/static/js/main.8caf9026.chunk.js",
-    "main.js.map": "https://datahub.elixir-belgium.org/converter/static/js/main.8caf9026.chunk.js.map",
+    "main.js": "https://datahub.elixir-belgium.org/converter/static/js/main.8fcf57a0.chunk.js",
+    "main.js.map": "https://datahub.elixir-belgium.org/converter/static/js/main.8fcf57a0.chunk.js.map",
     "runtime-main.js": "https://datahub.elixir-belgium.org/converter/static/js/runtime-main.31a570f0.js",
     "runtime-main.js.map": "https://datahub.elixir-belgium.org/converter/static/js/runtime-main.31a570f0.js.map",
     "static/css/2.ac046694.chunk.css": "https://datahub.elixir-belgium.org/converter/static/css/2.ac046694.chunk.css",
-    "static/js/2.78a07653.chunk.js": "https://datahub.elixir-belgium.org/converter/static/js/2.78a07653.chunk.js",
-    "static/js/2.78a07653.chunk.js.map": "https://datahub.elixir-belgium.org/converter/static/js/2.78a07653.chunk.js.map",
+    "static/js/2.d30d3f12.chunk.js": "https://datahub.elixir-belgium.org/converter/static/js/2.d30d3f12.chunk.js",
+    "static/js/2.d30d3f12.chunk.js.map": "https://datahub.elixir-belgium.org/converter/static/js/2.d30d3f12.chunk.js.map",
     "index.html": "https://datahub.elixir-belgium.org/converter/index.html",
-    "precache-manifest.31f2b3afbbfb5af27d2de9acda952d19.js": "https://datahub.elixir-belgium.org/converter/precache-manifest.31f2b3afbbfb5af27d2de9acda952d19.js",
+    "precache-manifest.a35d8d5b344cbe01019c4109c6452310.js": "https://datahub.elixir-belgium.org/converter/precache-manifest.a35d8d5b344cbe01019c4109c6452310.js",
     "service-worker.js": "https://datahub.elixir-belgium.org/converter/service-worker.js",
     "static/css/2.ac046694.chunk.css.map": "https://datahub.elixir-belgium.org/converter/static/css/2.ac046694.chunk.css.map",
     "static/css/main.f5972eb4.chunk.css.map": "https://datahub.elixir-belgium.org/converter/static/css/main.f5972eb4.chunk.css.map",
-    "static/js/2.78a07653.chunk.js.LICENSE.txt": "https://datahub.elixir-belgium.org/converter/static/js/2.78a07653.chunk.js.LICENSE.txt"
+    "static/js/2.d30d3f12.chunk.js.LICENSE.txt": "https://datahub.elixir-belgium.org/converter/static/js/2.d30d3f12.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.31a570f0.js",
     "static/css/2.ac046694.chunk.css",
-    "static/js/2.78a07653.chunk.js",
+    "static/js/2.d30d3f12.chunk.js",
     "static/css/main.f5972eb4.chunk.css",
-    "static/js/main.8caf9026.chunk.js"
+    "static/js/main.8fcf57a0.chunk.js"
   ]
 }

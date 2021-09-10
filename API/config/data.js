@@ -1,65 +1,65 @@
 const data = {
     Questions: {
-        nameApplicant: "1. [FWO] Name applicant.",
-        projectNumber: "2. [FWO, ERC, H2020] Project number.",
-        projectTitle: "3. [FWO, H2020] Project title.",
-        projectAcronym: "4. [ERC, H2020] Project acronym.",
-        affiliation: "5. [FWO] Affiliation.",
+        nameApplicant: "1. [FWO, BELSPO] Name applicant.",
+        projectNumber: "2. [FWO, ERC, H2020, BELSPO] Project number.",
+        projectTitle: "3. [FWO, H2020, BELSPO] Project title.",
+        projectAcronym: "4. [ERC, H2020, BELSPO] Project acronym.",
+        affiliation: "5. [FWO, BELSPO] Affiliation.",
         
         versionNumber: "1. [H2020] Version number.",
         versionChanges: "2. [H2020] Changes in this version.",
         dateFirstVersion: "3. [H2020] Completion date of first version.",
         lastUpdate: "4. [H2020] Date of the last update.",
         
-        newExistingData: "1. [FWO, ERC, H2020] Will you generate/collect new data and/or make use of existing data? Specify how you will use existing data.",
+        newExistingData: "1. [FWO, ERC, H2020, BELSPO] Will you generate/collect new data and/or make use of existing data? Specify how you will use existing data.",
         datasetsList: "2. [ERC] Name and list here all datasets that will be used and/or generated in this project. Add a reference for existing datasets.",
         datasetsPurpose: "3. [H2020] Per dataset, state its purpose, explain the relation to the objectives of the project, specify to whom it will be useful.",
-        datasetsOrigin: "4. [FWO, ERC, H2020] Per dataset, state its origin/source.",
-        datasetsTypeFormat: "5. [FWO, ERC, H2020] Per dataset, state digital format(s) of raw and processed data files, distinguishing proprietary from open format(s).",
+        datasetsOrigin: "4. [FWO, ERC, H2020, BELSPO] Per dataset, state its origin/source.",
+        datasetsTypeFormat: "5. [FWO, ERC, H2020, BELSPO] Per dataset, state digital format(s) of raw and processed data files, distinguishing proprietary from open format(s).",
         formatSoftware: "6. [ERC, H2020] What methods or software tools are needed to access data files in proprietary format? Is documentation about the software needed to open the data file provided in the metadata? Is it possible to provide the relevant software (e.g. in open source code)?",
-        datasetsVolume: "7. [FWO, ERC, H2020] Per dataset, state its expected volume at the end of the project.",
+        datasetsVolume: "7. [FWO, ERC, H2020, BELSPO] Per dataset, state its expected volume at the end of the project.",
         
-        datasetsSharing: "1. [FWO, ERC, H2020] Which datasets will be shared and made available (for the society) after the end of the project? Distinguish open access datasets from restricted or closed access datasets.",
-        sharingRational: "2. [FWO, ERC, H2020] Are there any factors restricting or preventing the sharing of (some of) the data? Per dataset with restricted or closed access, provide a rationale for doing so.",
-        sharingRepos: "3. [FWO, ERC, H2020] Per dataset, list the repositories in which data, metadata, code, software and related documentation will be shared. If research materials and protocols will be shared in centralised repositories, specify it below.",
-        accessProcedure: "4. [FWO, ERC, H2020] Per dataset with restricted access, explain how access will be provided (under what conditions or procedure).",
-        datasetsEmbargo: "5. [FWO, ERC, H2020] Per dataset, state when it will be made available. Is embargo foreseen?",
-        datasetsLicense: "6. [ERC, H2020] Per dataset, state how it will be licensed to permit the widest re-use possible. If the re-use of some data is restricted, explain why and specify the length of time for which the data will remain re-usable.",
+        datasetsSharing: "1. [FWO, ERC, H2020, BELSPO] Which datasets will be shared and made available (for the society) after the end of the project? Distinguish open access datasets from restricted or closed access datasets.",
+        sharingRational: "2. [FWO, ERC, H2020, BELSPO] Are there any factors restricting or preventing the sharing of (some of) the data? Per dataset with restricted or closed access, provide a rationale for doing so.",
+        sharingRepos: "3. [FWO, ERC, H2020, BELSPO] Per dataset, list the repositories in which data, metadata, code, software and related documentation will be shared. If research materials and protocols will be shared in centralised repositories, specify it below.",
+        accessProcedure: "4. [FWO, ERC, H2020, BELSPO] Per dataset with restricted access, explain how access will be provided (under what conditions or procedure).",
+        datasetsEmbargo: "5. [FWO, ERC, H2020, BELSPO] Per dataset, state when it will be made available. Is embargo foreseen?",
+        datasetsLicense: "6. [ERC, H2020, BELSPO] Per dataset, state how it will be licensed to permit the widest re-use possible. If the re-use of some data is restricted, explain why and specify the length of time for which the data will remain re-usable.",
         
         
-        datasetsMetadata: "1. [FWO, ERC, H2020] Will a metadata scheme be used? Per dataset, state the standard metadata or the customized metadata schemes that will be used.",
+        datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO] Will a metadata scheme be used? Per dataset, state the standard metadata or the customized metadata schemes that will be used.",
         datasetsIdentifier: "2. [ERC, H2020] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
         datasetsOntology: "3. [ERC, H2020] Will you use a controlled vocabulary or standard ontology to describe your data? Per dataset, state the standard ontologies you will use or the mapping of your vocabulary to standard ontologies.",
-        datasetsDocs: "4. [FWO, H2020] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
+        datasetsDocs: "4. [FWO, H2020, BELSPO] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
         
         costsFair: "1. [H2020] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?",
         costsFairCover: "2. [H2020] How will these costs (for making data FAIR) be covered?",
-        costSharing: "3. [FWO, ERC, H2020] What are the expected costs for data sharing and reuse?",
-        costSharingCover: "4. [FWO, ERC, H2020] How will these costs (for data sharing and reuse) be covered?",
+        costSharing: "3. [FWO, ERC, H2020, BELSPO] What are the expected costs for data sharing and reuse?",
+        costSharingCover: "4. [FWO, ERC, H2020, BELSPO] How will these costs (for data sharing and reuse) be covered?",
         
-        storageDuringWhere: "1. [FWO, ERC, H2020] Where will the data be stored during the project?",
-        storageDuringFrequency: "2. [FWO, ERC, H2020] What is the backup strategy?",
-        storageDuringAvailability: "3. [FWO] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
-        costDuring: "4. [FWO, ERC, H2020] What are the expected costs for data storage and backup during the project?",
-        costDuringCover: "5. [FWO, ERC, H2020] How will these costs (for data storage and backup during the project) be covered?",
-        securityDuring: "6. [FWO, ERC, H2020] Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorised persons), especially for sensitive data.",
+        storageDuringWhere: "1. [FWO, ERC, H2020, BELSPO] Where will the data be stored during the project?",
+        storageDuringFrequency: "2. [FWO, ERC, H2020, BELSPO] What is the backup strategy?",
+        storageDuringAvailability: "3. [FWO, BELSPO] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
+        costDuring: "4. [FWO, ERC, H2020, BELSPO] What are the expected costs for data storage and backup during the project?",
+        costDuringCover: "5. [FWO, ERC, H2020, BELSPO] How will these costs (for data storage and backup during the project) be covered?",
+        securityDuring: "6. [FWO, ERC, H2020, BELSPO] Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorised persons), especially for sensitive data.",
         
-        datasetsListArchiving: "1. [FWO, ERC, H2020] List which datasets will be preserved or not, for at least 5-10 years after the end of the project and explain why (legal, contractual restrictions etc..).",
-        ArchivingWhere: "2. [FWO, ERC, H2020] Where will datasets be stored for long term (archived) after the end of the project?",
-        CostsArchiving: "3. [FWO, ERC, H2020] Estimate the costs for long term preservation (or archiving).",
-        CostsArchivingCover: "4. [FWO, ERC, H2020] How will these costs (for long term preservation) be covered?",
+        datasetsListArchiving: "1. [FWO, ERC, H2020, BELSPO] List which datasets will be preserved or not, for at least 5-10 years after the end of the project and explain why (legal, contractual restrictions etc..).",
+        ArchivingWhere: "2. [FWO, ERC, H2020, BELSPO] Where will datasets be stored for long term (archived) after the end of the project?",
+        CostsArchiving: "3. [FWO, ERC, H2020, BELSPO] Estimate the costs for long term preservation (or archiving).",
+        CostsArchivingCover: "4. [FWO, ERC, H2020, BELSPO] How will these costs (for long term preservation) be covered?",
         SecurityArchiving: "5. [ERC, H2020] Data security: are the datasets safely stored in repositories for long term preservation and curation?",
         
         RespDataQuality: "1. [ERC, H2020] Describe data quality assurance processes and who will be responsible for it.",
-        RespDataDoc: "2. [FWO, H2020] Who will be responsible for the data documentation and metadata?",
-        RespDataStorage: "3. [FWO, H2020] Who will be responsible for data storage and backup during the project?",
-        RespDataArchiving: "4. [FWO, H2020] Who will be responsible for ensuring data preservation and sharing?",
-        RespDMP: "5. [FWO, H2020] Who bears the end responsibility for updating and implementing this DMP?",
+        RespDataDoc: "2. [FWO, H2020, BELSPO] Who will be responsible for the data documentation and metadata?",
+        RespDataStorage: "3. [FWO, H2020, BELSPO] Who will be responsible for data storage and backup during the project?",
+        RespDataArchiving: "4. [FWO, H2020, BELSPO] Who will be responsible for ensuring data preservation and sharing?",
+        RespDMP: "5. [FWO, H2020, BELSPO] Who bears the end responsibility for updating and implementing this DMP?",
         
-        PersonalData: "1. [FWO, H2020] Will you use personal/sensitive data? If so, shortly describe the kind of personal data you will use AND add the reference to your file in your host institution's privacy register.",
-        EthicalIssue: "2. [FWO, H2020] Are there any ethical issues concerning the creation and/or use of the data (e.g. experiments on humans or animals, dual use)? If so, add the reference to the formal approval by the relevant ethical review committee(s).",
-        IntellectualProperty: "3. [FWO] Will Intellectual property restrictions be claimed for your data? If so, for what data and which restrictions will be asserted?",
-        LegalIssue: "4. [FWO] Do existing 3rd party agreements restrict dissemination or exploitation of the data you (re)use? If so, to what data do they relate and what restrictions are in place?",
+        PersonalData: "1. [FWO, H2020, BELSPO] Will you use personal/sensitive data? If so, shortly describe the kind of personal data you will use AND add the reference to your file in your host institution's privacy register.",
+        EthicalIssue: "2. [FWO, H2020, BELSPO] Are there any ethical issues concerning the creation and/or use of the data (e.g. experiments on humans or animals, dual use)? If so, add the reference to the formal approval by the relevant ethical review committee(s).",
+        IntellectualProperty: "3. [FWO, BELSPO] Will Intellectual property restrictions be claimed for your data? If so, for what data and which restrictions will be asserted?",
+        LegalIssue: "4. [FWO, BELSPO] Do existing 3rd party agreements restrict dissemination or exploitation of the data you (re)use? If so, to what data do they relate and what restrictions are in place?",
         
         Other: "1. [H2020] Indicate whether other national/funder/sectorial/departmental procedures for data management are used."
         
@@ -119,6 +119,63 @@ const data = {
             },
         }
     },
+    belspo: {
+        sections: {
+            "1. General information": {
+                nameApplicant: "Name applicant",
+                projectNumber: ["BELSPO Project Code, Title and Acronym"],
+                projectTitle: ["BELSPO Project Code, Title and Acronym"],
+                projectAcronym: ["BELSPO Project Code, Title and Acronym"],
+                affiliation: "Affiliation",
+            },
+            "2. Data description": {
+                newExistingData: "Will you generate/collect new data and/or make use of existing data?",
+                datasetsOrigin: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets origin:"],
+                datasetsTypeFormat: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets type and format(s):"],
+                datasetsVolume: ["Describe the origin, type and format of the data (per dataset) and its (estimated) volume.", "Datasets volume:"],
+            },
+            "3. Ethical and legal issues": {
+                PersonalData: "Will you use personal/sensitive data? If so, shortly describe the kind of personal data you will use AND add the reference to your file in your host institution's privacy register.",
+                EthicalIssue: "Are there any ethical issues concerning the creation and/or use of the data (e.g. experiments on humans or animals, dual use)? If so, add the reference to the formal approval by the relevant ethical review committee(s).",
+                IntellectualProperty: "Does your work possibly result in research data with potential for tech transfer and valorization? Will IP restrictions be claimed for the data you created? If so, for what data and which restrictions will be asserted?",
+                LegalIssue: "Do existing 3rd party agreements restrict dissemination or exploitation of the data you (re)use? If so, to what data do tåhey relate and what restrictions are in place?"
+            },
+            "4. Documentation and metadata": {
+                datasetsMetadata: "Will a metadata standard be used? Describe in detail which standard will be used.  If not, state in detail which metadata will be created to make the data easy/easier to find and reuse.",
+                datasetsDocs: "What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
+            },
+            "5. Data storage & backup during the BELSPO project": {
+                storageDuringWhere: "Where will the data be stored?",
+                storageDuringFrequency: "How will the data be backed up?",
+                storageDuringAvailability: "Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
+                costDuring: ["What are the expected costs for data storage and backup during the project? How will these costs be covered?","Costs for storage and backup:"],
+                costDuringCover: ["What are the expected costs for data storage and backup during the project? How will these costs be covered?","Funding for storage and backup:"],
+                securityDuring: "Data security: how will you ensure that the data are securely stored and not accessed or modified by unauthorized persons?",
+            },
+            "6. Data preservation after the end of the BELSPO project": {
+                datasetsListArchiving: "In case only a selection of the data can/will be preserved, clearly state the reasons for this (legal or contractual restrictions, physical preservation issues, …)",
+                ArchivingWhere: "Where will these data be archived (=stored for the long term)?",
+                CostsArchiving: ["What are the expected costs for data preservation? How will the costs be covered?","Costs for archiving:"],
+                CostsArchivingCover: ["What are the expected costs for data preservation? How will the costs be covered?","Funding for archiving:"],
+            },
+            "7. Data sharing and reuse": {
+                datasetsSharing: "Which data will be made available after the end of the project?",
+                sharingRational: "Are there any factors restricting or preventing the sharing of (some of) the data (e.g. as defined in an agreement with a 3rd party, legal restrictions)?",
+                sharingRepos: "Where/how will the data be made available for reuse? ",
+                accessProcedure: "Who will be able to access the data and under what conditions?",
+                datasetsEmbargo: "When will the data be made available?",
+                datasetsLicense: ["What licence will be used for Open Research Data?", "Datasets' license:"],
+                costSharing: ["What are the expected costs for data sharing? How will these costs be covered?", "Costs for data sharing:"],
+                costSharingCover: ["What are the expected costs for data sharing? How will these costs be covered?", "Funding for data sharing costs:"]
+            },
+            "8. Responsibilities": {
+                RespDataDoc: "Who will be responsible for the data documentation and metadata?",
+                RespDataStorage: "Who will be responsible for data storage and backup during the project?",
+                RespDataArchiving: "Who will be responsible for ensuring data preservation and sharing?",
+                RespDMP: "Who bears the end responsibility for updating and implementing this DMP?"
+            },
+        }
+    },    
     erc: {
         sections: {
             "Project information": {

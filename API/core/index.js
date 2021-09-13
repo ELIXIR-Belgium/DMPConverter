@@ -22,9 +22,7 @@ Handlebars.registerHelper("breaklines", function (text) {
 });
 
 const Core = {
-  read: (file) => {
-    return readFile(file, "utf8");
-  },
+  read: (file) => readFile(file, "utf8"),
   createPDF: async (content, funder) => {
     try {
       // const data = await Core.read(file)
@@ -33,7 +31,7 @@ const Core = {
       const doc = {
         html: provideTemplate(funder),
         data: { data: content },
-        path: `${tempPath}${name}.pdf`,
+        path: `${tempPath}${name}.pdf`
       };
       await PDF.create(doc, options);
       return name;
@@ -71,9 +69,12 @@ const Core = {
         res.send("Funder not fount!");
     }
   },
-  randomName: () => {
-    return Math.random().toString(36).substring(7);
-  },
+  randomName: () => Math.random().toString(36).substring(7),
+  delete: (file) => {
+    fs.unlink(file, (err) => {
+      if (err) console.error(err);
+    });
+  }
 };
 
 module.exports = Core;

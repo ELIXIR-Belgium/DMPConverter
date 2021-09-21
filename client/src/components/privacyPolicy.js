@@ -36,19 +36,19 @@ export default function PrivacyPolicy(props) {
             <br />
             <strong>Type of personal information we collect </strong>
             <br />
-            We collect and process the data contained in the file uploaded by the user to convert the format
+            We collect and process the data contained in the file uploaded by the user to convert the layout and the format 
             of the file. <br />
             We don't receive nor store any other personal information. <br />
             <br />
             <strong>How we store your personal information</strong> <br />
             The data contained in the file uploaded by the user is securely stored in the website server
-            storage for 15 minutes. <br />
+            until the download of the converted file. <br />
             <br />
-            We keep the data contained in the file uploaded by the user for 15 minutes after the user has
-            started the conversion of a file with DMPConverter. After this period of time, all data will be
+            We keep the file uploaded by the user only until the user has
+            concluded the conversion and the download of the file with DMPConverter. After this period of time, all data will be
             automatically deleted. <br />
-            We don't store any other personal information. We only store the converted file for 15 minutes in
-            order to be available for the user to download. <br />
+            We don't store any other personal information. We only store the converted file until
+            it is downloaded by the user. <br />
             <br />
             The data contained in the file uploaded by the user will not be provided to third parties, unless
             there is an appropriate legal ground for it, or you have given your explicit consent.

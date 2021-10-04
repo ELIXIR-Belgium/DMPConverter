@@ -6,7 +6,7 @@ import FormLabel from "@material-ui/core/FormLabel";
 class ConvertType extends Component {
   render() {
     const { changeFunder, selectedFunder } = this.props;
-    const funders = ["FWO", "ERC", "H2020"];
+    const funders = ["FWO", "ERC", "H2020", "BELSPO", "HORIZONEUROPE"];
     const handleChange = (e) => {
       changeFunder(e.target.value);
     };

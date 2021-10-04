@@ -1,8 +1,6 @@
 const data = require("../config/data");
-const startLine = 16;
-const charCount = 50;
 let answers = {};
-let answerSealed = true;
+
 const replace = async (content, funder) => {
   const parsed = isJson(content);
   if (parsed) {
@@ -11,7 +9,7 @@ const replace = async (content, funder) => {
       x.questions.forEach((y) =>
         temp.push({
           question: y.text,
-          answer: y.answer && y.answer.text ? y.answer.text.replace(/<\/?[^>]+(>|$)/g, "") : null,
+          answer: y?.answer?.text ? y.answer.text.replace(/<\/?[^>]+(>|$)/g, "") : null
         })
       );
     });
@@ -20,87 +18,37 @@ const replace = async (content, funder) => {
         ? x.answer.split("\n")
         : [];
     });
-  } else {
-    let sealingTexts = await extractSealing(content);
-    for (const key in data.Questions) {
-      answers[key] = [];
-    }
-    const lines = content.split("\n");
-    let key = "";
-    for (let i = startLine; i < lines.length - 1; i++) {
-      for (const q in data.Questions) {
-        if (lines[i].substring(0, charCount).trim() == data.Questions[q].substring(0, charCount).trim()) {
-          // Start of answer
-          key = q;
-          answerSealed = false;
-          i++;
-          break;
-        }
-      }
-      if (!answerSealed) {
-        if (sealingTexts.includes(lines[i])) {
-          answerSealed = true;
-        } else {
-          // Continue adding lines as answer until next question
-          if (lines[i].trim()) answers[key].push(lines[i].trim());
-        }
-      }
-    }
   }
-
-  // console.log(answers);
 
   let outputHtml = {},
     prevQ = "";
   outputHtml["sections"] = {};
   const root = data[funder].sections;
   for (const section in root) {
-    let newSection = section; // unCamelCase(section);
-    outputHtml["sections"][newSection] = [];
+    outputHtml["sections"][section] = [];
     for (const funderQ in root[section]) {
       let Q, guide;
       if (Array.isArray(root[section][funderQ])) {
         Q = root[section][funderQ][0];
         if (root[section][funderQ].length > 1) guide = "• " + root[section][funderQ][1] + "૾";
       } else Q = root[section][funderQ];
-      const ans = answers[funderQ].join("\n");
+      const ans = answers[funderQ]?.join("\n");
       if (Q == prevQ) {
         if (ans)
-          lastItem(outputHtml["sections"][newSection]).A += guide ? guide + ans + "\n" : "\n" + ans + "\n";
+          lastItem(outputHtml["sections"][section]).A += guide ? guide + ans + "\n" : "\n" + ans + "\n";
       } else {
-        outputHtml["sections"][newSection].push({
+        outputHtml["sections"][section].push({
           Q: funder == "fwo" ? Q : Q.includes("**FORCE_SHOW**") ? Q.replace("**FORCE_SHOW**", "") : undefined, // Q,
-          A: ans ? (guide || "") + ans + "\n" : "",
+          A: ans ? (guide || "") + ans + "\n" : "question not answered"
         });
       }
       prevQ = Q;
     }
   }
   outputHtml["funder"] = funder.toUpperCase();
-  // console.log("outputHtml",outputHtml);
   return outputHtml;
 };
-const lastItem = (array) => {
-  return array[array.length - 1];
-};
-const extractSealing = (content) => {
-  let sealingTexts = [];
-  const lines = content.split("\n");
-  let prevLine = "";
-  for (const l in lines) {
-    if (lines[l].includes("====") || lines[l].includes("----")) {
-      sealingTexts.push(prevLine);
-      sealingTexts.push(lines[l]);
-    } else prevLine = lines[l];
-  }
-  return sealingTexts;
-};
-
-const unCamelCase = (str) => {
-  return str.replace(/([A-Z])/g, " $1").replace(/^./, function (str) {
-    return str.toUpperCase();
-  });
-};
+const lastItem = (array) => array[array.length - 1];
 
 const isJson = (str) => {
   try {

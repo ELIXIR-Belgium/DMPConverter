@@ -11,7 +11,7 @@ const data = {
         dateFirstVersion: "3. [H2020] Completion date of first version.",
         lastUpdate: "4. [H2020, HorizonEurope] Date of the last update.",
         
-        newExistingData: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will you generate/collect new data and/or make use of existing data? Specify how you will use existing data.",
+        newExistingData: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will you generate/collect new data and/or make use of existing data? State the reasons and specify how you will use existing data.",
         datasetsList: "2. [ERC] Name and list here all datasets that will be used and/or generated in this project. Add a reference for existing datasets.",
         datasetsPurpose: "3. [H2020, HorizonEurope] Per dataset, state its purpose, explain the relation to the objectives of the project, specify to whom it will be useful.",
         datasetsOrigin: "4. [FWO, ERC, H2020, BELSPO, HorizonEurope] Per dataset, state its origin/source.",
@@ -30,12 +30,12 @@ const data = {
         metadataSharing: "9. [HorizonEurope] Per dataset, specify for how long the data will remain available and findable and if metadata will be guaranteed to remain available after data is no longer available.",
 
         
-        datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will a metadata scheme be used? Per dataset, state the standard metadata or the customized metadata schemes that will be used.",
+        datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will a metadata scheme be used? Per dataset, list the standard metadata schemes that will be used and/or what type of metadata will be created and how.",
         maDatasetsMetadata: "2.[HorizonEurope] Will dataset metadata be provided in a machine-readable format to be found by search engines, registries or databases in an automated way (tags, keywords)?",
         provenance: "3. [HorizonEurope] How will you document data provenance? Specify if appropriate standards (such as W3C Prov Model Primer) will be used.",
         datasetsIdentifier: "4. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
-        datasetsOntology: "5. [ERC, H2020, HorizonEurope] Will you use a controlled vocabulary or standard ontology to describe your data? Per dataset, state the standard ontologies you will use or the mapping of your vocabulary to standard ontologies.",
-        interoperableModel: "6. [HorizonEurope] Per dataset, specify if (meta)data will be provided in data interchange formats (such as RDF, JSON-LD, etc). If your dataset is related to other existing datasets, specify the reference and the type of relation between datasets (qualified reference).",
+        datasetsOntology: "5. [ERC, H2020, HorizonEurope] Will you use standard vocabularies/ontologies to describe your data (at the level of each recorded value)? Per dataset, list the standard vocabularies/ontologies you will use or if/how you will map your customised terms to standard ontologies. Specify if you will publish your customised terms in appropriate platforms and where/how.",
+        maDatasetsOntology: "6. [HorizonEurope] Per dataset, specify how the description of the list of terms or the URI/URL of the used vocabularies/ontologies will be provided (in machine-actionable formats, in human-readable formats, both, etc). If your dataset is related to other existing datasets, specify how the reference and the type of relation between datasets will be documented (qualified reference).",
         datasetsDocs: "7. [FWO, H2020, BELSPO, HorizonEurope] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
         
         costsFair: "1. [H2020, HorizonEurope] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?",
@@ -353,7 +353,7 @@ const data = {
 
             },
             "2.3. FAIR data: Making data interoperable": {
-                interoperableModel: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? Will you follow community-endorsed interoperability best practices? Which ones? Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", " Data interchange formats and qualified reference:"],
+                maDatasetsOntology: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? Will you follow community-endorsed interoperability best practices? Which ones? Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", " Data interchange formats and qualified reference:"],
                 datasetsOntology: ["In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies? Will you openly publish the generated ontologies or vocabularies to allow reusing, refining or extending them?", "Use of ontology:"],
             },
             "4. Allocation of resources": {

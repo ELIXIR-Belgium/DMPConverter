@@ -353,8 +353,8 @@ const data = {
 
             },
             "2.3. FAIR data: Making data interoperable": {
-                maDatasetsOntology: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? Will you follow community-endorsed interoperability best practices? Which ones? Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", " Data interchange formats and qualified reference:"],
-                datasetsOntology: ["In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies? Will you openly publish the generated ontologies or vocabularies to allow reusing, refining or extending them?", "Use of ontology:"],
+                datasetsOntology: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies? Will you openly publish the generated ontologies or vocabularies to allow reusing, refining or extending them?","Use of ontology:"],
+                maDatasetsOntology: ["Will you follow community-endorsed interoperability best practices? Which ones? Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", "Machine-actionable ontology and qualified reference:"],
             },
             "4. Allocation of resources": {
                 costsFair: ["What will the costs be for making data or other research outputs FAIR in your project (e.g. direct and indirect costs related to storage, archiving, re-use, security, etc.)?", "Costs for making FAIR data:"],

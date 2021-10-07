@@ -45,7 +45,7 @@ const data = {
         
         storageDuringWhere: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Where will the data be stored during the project?",
         storageDuringFrequency: "2. [FWO, ERC, H2020, BELSPO, HorizonEurope] What is the backup strategy?",
-        storageDuringAvailability: "3. [FWO, BELSPO, HorizonEurope] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
+        storageDuringAvailability: "3. [FWO, BELSPO] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
         costDuring: "4. [FWO, ERC, H2020, BELSPO, HorizonEurope] What are the expected costs for data storage and backup during the project?",
         costDuringCover: "5. [FWO, ERC, H2020, BELSPO, HorizonEurope] How will these costs (for data storage and backup during the project) be covered?",
         securityDuring: "6. [FWO, ERC, H2020, BELSPO, HorizonEurope] Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorised persons), especially for sensitive data.",

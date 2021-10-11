@@ -50,7 +50,7 @@ const data = {
         costDuringCover: "5. [FWO, ERC, H2020, BELSPO, HorizonEurope] How will these costs (for data storage and backup during the project) be covered?",
         securityDuring: "6. [FWO, ERC, H2020, BELSPO, HorizonEurope] Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorised persons), especially for sensitive data.",
         
-        datasetsListArchiving: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] List which datasets will be preserved or not, for at least 5-10 years after the end of the project and explain why (legal, contractual restrictions etc..).",
+        datasetsListArchiving: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] List which datasets will be preserved or not for some years after the end of the project and explain why (legal, contractual restrictions etc..).",
         ArchivingWhere: "2. [FWO, ERC, H2020, BELSPO, HorizonEurope] Where will datasets be stored for long term (archived) after the end of the project?",
         CostsArchiving: "3. [FWO, ERC, H2020, BELSPO, HorizonEurope] Estimate the costs for long term preservation (or archiving).",
         CostsArchivingCover: "4. [FWO, ERC, H2020, BELSPO, HorizonEurope] How will these costs (for long term preservation) be covered?",

@@ -31,7 +31,7 @@ const data = {
 
         
         datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will a metadata scheme be used? Per dataset, list the standard metadata schemes that will be used and/or what type of metadata will be created and how.",
-        maDatasetsMetadata: "2.[HorizonEurope] Will dataset metadata be provided in a machine-readable format (structured according to a standard) to be found by search engines and metadata harvesting servers? Will you provide keywords?",
+        maDatasetsMetadata: "2.[HorizonEurope] Will dataset metadata be provided in a machine-actionable format (structured according to a standard) to be found by search engines and metadata harvesting servers? Will you provide keywords?",
         provenance: "3. [HorizonEurope] How will you document data provenance? Specify if appropriate standards (such as W3C Prov Model Primer) will be used.",
         qualifiedRef: "4. [HorizonEurope] If your datasets are somehow related to other existing datasets, specify if the scientific meaning of the cross-references will be documented (qualified references).",
         datasetsIdentifier: "5. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",

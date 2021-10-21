@@ -33,10 +33,11 @@ const data = {
         datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will a metadata scheme be used? Per dataset, list the standard metadata schemes that will be used and/or what type of metadata will be created and how.",
         maDatasetsMetadata: "2.[HorizonEurope] Will dataset metadata be provided in a machine-readable format (structured according to a standard) to be found by search engines and metadata harvesting servers? Will you provide keywords?",
         provenance: "3. [HorizonEurope] How will you document data provenance? Specify if appropriate standards (such as W3C Prov Model Primer) will be used.",
-        datasetsIdentifier: "4. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
-        datasetsOntology: "5. [ERC, H2020, HorizonEurope] Will you use standard vocabularies/ontologies to describe your data (at the level of each recorded value)? Per dataset, list the standard vocabularies/ontologies you will use or if/how you will map your customised terms to standard ontologies. Specify if you will publish your customised terms in appropriate platforms and where/how.",
-        maDatasetsOntology: "6. [HorizonEurope] Per dataset, specify how the description of the list of terms or the URI/URL of the used vocabularies/ontologies will be provided (in machine-actionable formats, in human-readable formats, both, etc). If your dataset is related to other existing datasets, specify how the reference and the type of relation between datasets will be documented (qualified reference).",
-        datasetsDocs: "7. [FWO, H2020, BELSPO, HorizonEurope] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
+        qualifiedRef: "4. [HorizonEurope] If your datasets are somehow related to other existing datasets, specify if the scientific meaning of the cross-references will be documented (qualified references).",
+        datasetsIdentifier: "5. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
+        datasetsOntology: "6. [ERC, H2020, HorizonEurope] Will you use standard vocabularies/ontologies to describe your data (at the level of each recorded value)? Per dataset, list the standard vocabularies/ontologies you will use or if/how you will map your customised terms to standard ontologies. Specify if you will publish your customised terms in appropriate platforms and where/how.",
+        maDatasetsOntology: "7. [HorizonEurope] Per dataset, specify how the description of the list of terms or the URI/URL of the used vocabularies/ontologies will be provided (in machine-actionable formats, in human-readable formats, both, etc). If your dataset is related to other existing datasets, specify how the reference and the type of relation between datasets will be documented (qualified reference).",
+        datasetsDocs: "8. [FWO, H2020, BELSPO, HorizonEurope] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
         
         costsFair: "1. [H2020, HorizonEurope] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?",
         costsFairCover: "2. [H2020, HorizonEurope] How will these costs (for making data FAIR) be covered?",
@@ -354,7 +355,8 @@ const data = {
             },
             "2.3. FAIR data: Making data interoperable": {
                 datasetsOntology: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies? Will you openly publish the generated ontologies or vocabularies to allow reusing, refining or extending them?","Use of ontology:"],
-                maDatasetsOntology: ["Will you follow community-endorsed interoperability best practices? Which ones? Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", "Machine-actionable ontology and qualified reference:"],
+                maDatasetsOntology: ["Will you follow community-endorsed interoperability best practices? Which ones?", "Machine-actionable ontology:"],
+                qualifiedRef: ["Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", "Qualified references"],
             },
             "4. Allocation of resources": {
                 costsFair: ["What will the costs be for making data or other research outputs FAIR in your project (e.g. direct and indirect costs related to storage, archiving, re-use, security, etc.)?", "Costs for making FAIR data:"],

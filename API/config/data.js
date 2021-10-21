@@ -36,7 +36,7 @@ const data = {
         qualifiedRef: "4. [HorizonEurope] If your datasets are somehow related to other existing datasets, specify if the scientific meaning of the cross-references will be documented (qualified references).",
         datasetsIdentifier: "5. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
         datasetsOntology: "6. [ERC, H2020, HorizonEurope] Will you use standard vocabularies/ontologies to describe your data (at the level of each recorded value)? Per dataset, list the standard vocabularies/ontologies you will use or if/how you will map your customised terms to standard ontologies. Specify if you will publish your customised terms in appropriate platforms and where/how.",
-        maDatasetsOntology: "7. [HorizonEurope] Per dataset, specify how the description of the list of terms or the URI/URL of the used vocabularies/ontologies will be provided (in machine-actionable formats, in human-readable formats, both, etc). If your dataset is related to other existing datasets, specify how the reference and the type of relation between datasets will be documented (qualified reference).",
+        maDatasetsOntology: "7. [HorizonEurope] Per dataset, specify how the description of the list of terms or the URI/URL of the used vocabularies/ontologies will be provided (in machine-actionable formats, in human-readable formats, both, etc).",
         datasetsDocs: "8. [FWO, H2020, BELSPO, HorizonEurope] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
         
         costsFair: "1. [H2020, HorizonEurope] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?",
@@ -332,7 +332,7 @@ const data = {
             "2.1 FAIR data: Making data findable, including provisions for metadata": {
                 datasetsIdentifier: ["Will data be identified by a persistent identifier?", "Use of identifier:"],
                 datasetsMetadata: ["Will rich metadata be provided to allow discovery? What metadata will be created? What disciplinary or general standards will be followed? In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how.", "Use of metadata schema:"],
-                maDatasetsMetadata: ["Will search keywords be provided in the metadata to optimize the possibility for discovery and then potential re-use? Will metadata be offered in such a way that it can be harvested and indexed?", "Machine actionable (meta)data:"],
+                maDatasetsMetadata: ["Will search keywords be provided in the metadata to optimize the possibility for discovery and then potential re-use? Will metadata be offered in such a way that it can be harvested and indexed?", "Machine-actionable (meta)data:"],
             },
             "2.2 FAIR data: Making data accessible": {
                 sharingRepos: ["Will the data be deposited in a trusted repository? Have you explored appropriate arrangements with the identified repository where your data will be deposited?", "Repositories list per dataset:"],

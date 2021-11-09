@@ -11,7 +11,7 @@ const data = {
         dateFirstVersion: "3. [H2020] Completion date of first version.",
         lastUpdate: "4. [H2020, HorizonEurope] Date of the last update.",
         
-        newExistingData: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will you generate/collect new data and/or make use of existing data? Specify how you will use existing data.",
+        newExistingData: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will you generate/collect new data and/or make use of existing data? State the reasons and specify how you will use existing data.",
         datasetsList: "2. [ERC] Name and list here all datasets that will be used and/or generated in this project. Add a reference for existing datasets.",
         datasetsPurpose: "3. [H2020, HorizonEurope] Per dataset, state its purpose, explain the relation to the objectives of the project, specify to whom it will be useful.",
         datasetsOrigin: "4. [FWO, ERC, H2020, BELSPO, HorizonEurope] Per dataset, state its origin/source.",
@@ -30,13 +30,14 @@ const data = {
         metadataSharing: "9. [HorizonEurope] Per dataset, specify for how long the data will remain available and findable and if metadata will be guaranteed to remain available after data is no longer available.",
 
         
-        datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will a metadata scheme be used? Per dataset, state the standard metadata or the customized metadata schemes that will be used.",
-        maDatasetsMetadata: "2.[HorizonEurope] Will dataset metadata be provided in a machine-readable format to be found by search engines, registries or databases in an automated way (tags, keywords)?",
+        datasetsMetadata: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Will a metadata scheme be used? Per dataset, list the standard metadata schemes that will be used and/or what type of metadata will be created and how.",
+        maDatasetsMetadata: "2.[HorizonEurope] Will dataset metadata be provided in a machine-actionable format (structured according to standards) to be found by search engines and metadata harvesting servers? Will you provide keywords?",
         provenance: "3. [HorizonEurope] How will you document data provenance? Specify if appropriate standards (such as W3C Prov Model Primer) will be used.",
-        datasetsIdentifier: "4. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
-        datasetsOntology: "5. [ERC, H2020, HorizonEurope] Will you use a controlled vocabulary or standard ontology to describe your data? Per dataset, state the standard ontologies you will use or the mapping of your vocabulary to standard ontologies.",
-        interoperableModel: "6. [HorizonEurope] Per dataset, specify if (meta)data will be provided in data interchange formats (such as RDF, JSON-LD, etc). If your dataset is related to other existing datasets, specify the reference and the type of relation between datasets (qualified reference).",
-        datasetsDocs: "7. [FWO, H2020, BELSPO, HorizonEurope] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
+        qualifiedRef: "4. [HorizonEurope] If your datasets are somehow related to other existing datasets, specify if the scientific meaning of the cross-references will be documented (qualified references).",
+        datasetsIdentifier: "5. [ERC, H2020, HorizonEurope] Do you make use of persistent identifiers or unique identifiers such as Digital Object Identifiers (DOI)?",
+        datasetsOntology: "6. [ERC, H2020, HorizonEurope] Will you use standard vocabularies/ontologies to describe your data (at the level of each recorded value)? Per dataset, list the standard vocabularies/ontologies you will use or if/how you will map your customised terms to standard ontologies. Specify if you will publish your customised terms in appropriate platforms and where/how.",
+        maDatasetsOntology: "7. [HorizonEurope] Per dataset, specify how the description of the list of terms or the URI/URL of the used vocabularies/ontologies will be provided (in machine-actionable formats, in human-readable formats, both, etc).",
+        datasetsDocs: "8. [FWO, H2020, BELSPO, HorizonEurope] What documentation will be provided to enable understanding and reuse of data collected/generated in this project?",
         
         costsFair: "1. [H2020, HorizonEurope] What are the estimated costs for making data more FAIR (Findable, Accessible, Interoperable, Reusable)?",
         costsFairCover: "2. [H2020, HorizonEurope] How will these costs (for making data FAIR) be covered?",
@@ -45,12 +46,12 @@ const data = {
         
         storageDuringWhere: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] Where will the data be stored during the project?",
         storageDuringFrequency: "2. [FWO, ERC, H2020, BELSPO, HorizonEurope] What is the backup strategy?",
-        storageDuringAvailability: "3. [FWO, BELSPO, HorizonEurope] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
+        storageDuringAvailability: "3. [FWO, BELSPO] Is there currently sufficient storage & backup capacity during the project? If yes, specify concisely. If no or insufficient storage or backup capacities are available, then explain how this will be taken care of.",
         costDuring: "4. [FWO, ERC, H2020, BELSPO, HorizonEurope] What are the expected costs for data storage and backup during the project?",
         costDuringCover: "5. [FWO, ERC, H2020, BELSPO, HorizonEurope] How will these costs (for data storage and backup during the project) be covered?",
         securityDuring: "6. [FWO, ERC, H2020, BELSPO, HorizonEurope] Data security: how will you ensure that the data are securely stored (not accessed or modified by unauthorised persons), especially for sensitive data.",
         
-        datasetsListArchiving: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] List which datasets will be preserved or not, for at least 5-10 years after the end of the project and explain why (legal, contractual restrictions etc..).",
+        datasetsListArchiving: "1. [FWO, ERC, H2020, BELSPO, HorizonEurope] List which datasets will be preserved or not for some years after the end of the project and explain why (legal, contractual restrictions etc..).",
         ArchivingWhere: "2. [FWO, ERC, H2020, BELSPO, HorizonEurope] Where will datasets be stored for long term (archived) after the end of the project?",
         CostsArchiving: "3. [FWO, ERC, H2020, BELSPO, HorizonEurope] Estimate the costs for long term preservation (or archiving).",
         CostsArchivingCover: "4. [FWO, ERC, H2020, BELSPO, HorizonEurope] How will these costs (for long term preservation) be covered?",
@@ -331,7 +332,7 @@ const data = {
             "2.1 FAIR data: Making data findable, including provisions for metadata": {
                 datasetsIdentifier: ["Will data be identified by a persistent identifier?", "Use of identifier:"],
                 datasetsMetadata: ["Will rich metadata be provided to allow discovery? What metadata will be created? What disciplinary or general standards will be followed? In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how.", "Use of metadata schema:"],
-                maDatasetsMetadata: ["Will search keywords be provided in the metadata to optimize the possibility for discovery and then potential re-use? Will metadata be offered in such a way that it can be harvested and indexed?", "Machine actionable (meta)data:"],
+                maDatasetsMetadata: ["Will search keywords be provided in the metadata to optimize the possibility for discovery and then potential re-use? Will metadata be offered in such a way that it can be harvested and indexed?", "Machine-actionable (meta)data:"],
             },
             "2.2 FAIR data: Making data accessible": {
                 sharingRepos: ["Will the data be deposited in a trusted repository? Have you explored appropriate arrangements with the identified repository where your data will be deposited?", "Repositories list per dataset:"],
@@ -353,8 +354,9 @@ const data = {
 
             },
             "2.3. FAIR data: Making data interoperable": {
-                interoperableModel: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? Will you follow community-endorsed interoperability best practices? Which ones? Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", " Data interchange formats and qualified reference:"],
-                datasetsOntology: ["In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies? Will you openly publish the generated ontologies or vocabularies to allow reusing, refining or extending them?", "Use of ontology:"],
+                datasetsOntology: ["What data and metadata vocabularies, standards, formats or methodologies will you follow to make your data interoperable to allow data exchange and re-use within and across disciplines? In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies? Will you openly publish the generated ontologies or vocabularies to allow reusing, refining or extending them?","Use of ontology:"],
+                maDatasetsOntology: ["Will you follow community-endorsed interoperability best practices? Which ones?", "Machine-actionable ontology:"],
+                qualifiedRef: ["Will your data include qualified references  to other data (e.g. other data from your project, or datasets from previous research)?", "Qualified references"],
             },
             "4. Allocation of resources": {
                 costsFair: ["What will the costs be for making data or other research outputs FAIR in your project (e.g. direct and indirect costs related to storage, archiving, re-use, security, etc.)?", "Costs for making FAIR data:"],
